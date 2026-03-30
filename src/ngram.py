@@ -7,7 +7,7 @@ from bpe import bpe_tokenizer
 
 
 
-class NGram:
+class n_gram:
     def __init__(self,N: int,lambda_backoff:float = 0.4,tokenizer:bpe_tokenizer | None = None):
         self.N: int = N
         #self.ngram_counts: dict[int,dict[tuple[str, ...],int]] = dict()

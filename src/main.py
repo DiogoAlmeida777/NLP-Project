@@ -1,6 +1,7 @@
 from bpe import bpe_tokenizer
 from nlp_utils import *
-from ngram import NGram
+from ngram import n_gram
+from information_retrieval import bm25_search
 
 
 
@@ -27,15 +28,15 @@ def test_bpe(model: bpe_tokenizer):
         print("bpe representation:",model.tokenize(s),sep="\n\n",end="\n\n")
 
 
-def test_ngram(model: NGram):
+def test_n_gram(model: n_gram):
     print("Vocabulary Size:",len(model.vocab),sep=" ",end="\n\n")
-    print("Number of bigrams:",len(model.ngram_counts[1]),sep=" ",end="\n\n")
-    print("Number of trigrams:",len(model.ngram_counts[2]),sep=" ",end="\n\n")
-    print("Number of fourgrams:",len(model.ngram_counts[3]),sep=" ",end="\n\n")
-    print("Number of fivegrams:",len(model.ngram_counts[4]),sep=" ",end="\n\n")
-    print("Number of sixgrams:",len(model.ngram_counts[5]),sep=" ",end="\n\n")
-    print("Number of sevengrams:",len(model.ngram_counts[6]),sep=" ",end="\n\n")
-    print("Number of eightgrams:",len(model.ngram_counts[7]),sep=" ",end="\n\n")
+    print("Number of bigrams:",len(model.n_gram_counts[1]),sep=" ",end="\n\n")
+    print("Number of trigrams:",len(model.n_gram_counts[2]),sep=" ",end="\n\n")
+    print("Number of fourgrams:",len(model.n_gram_counts[3]),sep=" ",end="\n\n")
+    print("Number of fivegrams:",len(model.n_gram_counts[4]),sep=" ",end="\n\n")
+    print("Number of sixgrams:",len(model.n_gram_counts[5]),sep=" ",end="\n\n")
+    print("Number of seven_grams:",len(model.n_gram_counts[6]),sep=" ",end="\n\n")
+    print("Number of eightgrams:",len(model.n_gram_counts[7]),sep=" ",end="\n\n")
     
     test_sentences = [
         "Count Dracula carriage arrived at Bistritz.",
@@ -82,7 +83,10 @@ def test_ngram(model: NGram):
     print("perplexity = ",model.perplexity(test_input2),sep=" ",end="\n\n")
 
 
-
+def test_bm25search(model:bm25_search):
+    top_results = model.search_words("Dracula")
+    for result in top_results:
+        print(result)
 
 def main() -> None:
     with open(file="corpus/dracula_clean.txt",mode="r",encoding="utf-8") as file:
@@ -91,10 +95,13 @@ def main() -> None:
     bpe = bpe_tokenizer(corpus,k = 5000)
     bpe.learn()
     #test_bpe(bpe)
-
-    eight_gram = NGram(8,0.4,bpe)
+    eight_gram = n_gram(8,0.4,bpe)
     eight_gram.train(corpus)
-    test_ngram(eight_gram)
+    #test_n_gram(eight_gram)
+    ir = bm25_search(corpus)
+    test_bm25search(ir)
+    
+
 
 
 
