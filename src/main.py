@@ -94,7 +94,7 @@ def main() -> None:
         file.close()
     bpe = bpe_tokenizer(corpus,k = 5000)
     bpe.learn()
-    #test_bpe(bpe)
+    test_bpe(bpe)
     eight_gram = n_gram(8,0.4,bpe)
     eight_gram.train(corpus)
     #test_n_gram(eight_gram)
