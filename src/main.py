@@ -1,7 +1,7 @@
 from bpe import bpe_tokenizer
 from nlp_utils import *
 from ngram import n_gram
-from information_retrieval import bm25_search
+from information_retrieval import bm25_search, bm25_search_words, bm25_search_bpe
 
 
 
@@ -84,9 +84,99 @@ def test_n_gram(model: n_gram):
 
 
 def test_bm25search(model:bm25_search):
-    top_results = model.search_words("Dracula")
-    for result in top_results:
-        print(result)
+    character_queries = [
+        "Dracula",
+        "Jonathan Harker",
+        "Van Helsing",
+        "Lucy",
+        "Agatha",
+        "Seward",
+        "Mina"
+    ]
+
+    rare_words_queries = [
+        "quondam",
+        "prodigal",
+        "queer",
+        "miasma",
+        "diabolical",
+        "crucifix",
+        "berserker",
+        "lugubrious",
+        "boyar",
+        "calèche"
+    ]
+
+    morphologically_related_forms = [
+        "conscious",
+        "unconscious",
+        "attended",
+        "unattended",
+        "happy",
+        "unhappy",
+        "run",
+        "running",
+        "open",
+        "opened",
+        "unopened",
+        "easy",
+        "uneasy",
+        "easily",
+        "uneasily",
+        "sun",
+        "sunny",
+        "vampire",
+        "vampirism",
+        "bite",
+        "biting",
+        "bitten"
+    ]
+
+    short_keyword_queries = [
+        "dracula castle",
+        "dark room",
+        "sucking blood",
+        "vampire bite",
+        "wooden stake",
+        "curse of immortality",
+        "Bistritz",
+        "Jonathan Harker diary"
+    ]
+
+    full_sentence_queries = [
+        "sunlight, crucifixes and garlic are weaknesses of vampires.",
+        "vampires bite and suck the blood of their victims.",
+        "Count Dracula sleeps inside a coffin during daylight.",
+        "what causes lucy illness?",
+        "It was on the dark side of twilight when we got to Bistritz, which is a very interesting old place.",
+        "Dracula moves like a lizard.",
+        "Mina Harker transcribes the journals with a typewriter."
+    ]
+
+    query_types = [
+        character_queries,
+        rare_words_queries,
+        morphologically_related_forms,
+        short_keyword_queries,
+        full_sentence_queries
+    ]
+
+    query_names = [
+        "Character Names", 
+        "Rare Words",
+        "Morphologically Related Forms",
+        "Short Keywords",
+        "Full Sentences"
+    ]
+
+    for queries, q_type in zip(query_types, query_names):
+        print(q_type,end="\n\n")
+        for q in queries:
+            print("query: ",q,end="\n\n")
+            top_results = model.search(q)
+            for result in top_results:
+                print(result,end="\n\n")
+        
 
 def main() -> None:
     with open(file="corpus/dracula_clean.txt",mode="r",encoding="utf-8") as file:
@@ -94,22 +184,17 @@ def main() -> None:
         file.close()
     bpe = bpe_tokenizer(corpus,k = 5000)
     bpe.learn()
-    test_bpe(bpe)
+    #test_bpe(bpe)
     eight_gram = n_gram(8,0.4,bpe)
     eight_gram.train(corpus)
     #test_n_gram(eight_gram)
-    ir = bm25_search(corpus)
-    test_bm25search(ir)
-    
+    ir_words = bm25_search_words(corpus)
+    print("word tokenization:\n")
+    test_bm25search(ir_words)
+    ir_bpe = bm25_search_bpe(corpus,5000)
+    #print("bpe tokenization:\n")
+    #test_bm25search(ir_bpe)
 
-
-
-
-
-        
-
-    
-    
 
 if __name__ == "__main__":
     main()
