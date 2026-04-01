@@ -1,6 +1,5 @@
 import re
 
-
 def normalize_text(text: str) -> str:
     '''
     Subtitutes multiple whitespaces into a single whitespace.

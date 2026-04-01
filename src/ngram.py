@@ -1,14 +1,11 @@
-from collections import Counter
 import re
 import math
 import random
 from nlp_utils import normalize_text, split_sentences, tokenize_sentences
 from bpe import bpe_tokenizer
 
-
-
 class n_gram:
-    def __init__(self,N: int,lambda_backoff:float = 0.4,tokenizer:bpe_tokenizer | None = None):
+    def __init__(self, N: int, tokenizer: bpe_tokenizer, lambda_backoff:float = 0.4):
         self.N: int = N
         #self.ngram_counts: dict[int,dict[tuple[str, ...],int]] = dict()
         #self.vocab: set[str] = set()   
@@ -16,22 +13,16 @@ class n_gram:
         self.lambda_backoff: float = lambda_backoff
         self.eps: float = 10**-12
         self.tokenizer = tokenizer
-
-        
-    def train(self,corpus_text: str) -> None:
         self.ngram_counts = {
             n: {} for n in range(self.N)
         }
         self.vocab: set[str] = set() 
-        self.total_tokens: int = 0     
-
-        # creates a tokenizer if it doesn't exist yet.
-        if self.tokenizer is None:
-            self.tokenizer = bpe_tokenizer(corpus_text,5000)
+        self.total_tokens: int = 0    
         
+    def train(self,corpus_text: str) -> None: 
         # makes the tokenizer learn if it doesn't have any merge rule yet.
-        if not self.tokenizer.merge_rules:
-            self.tokenizer.learn()
+        # if not self.tokenizer.merge_rules:
+        #     self.tokenizer.learn()
 
         # Pre-Processing
         tokenized_sentences = self._process_text(corpus_text)

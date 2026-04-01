@@ -2,6 +2,7 @@ from bpe import bpe_tokenizer
 from nlp_utils import *
 from ngram import n_gram
 from information_retrieval import bm25_search
+from search import BM25Words, BM25BPE
 
 
 
@@ -30,13 +31,13 @@ def test_bpe(model: bpe_tokenizer):
 
 def test_n_gram(model: n_gram):
     print("Vocabulary Size:",len(model.vocab),sep=" ",end="\n\n")
-    print("Number of bigrams:",len(model.n_gram_counts[1]),sep=" ",end="\n\n")
-    print("Number of trigrams:",len(model.n_gram_counts[2]),sep=" ",end="\n\n")
-    print("Number of fourgrams:",len(model.n_gram_counts[3]),sep=" ",end="\n\n")
-    print("Number of fivegrams:",len(model.n_gram_counts[4]),sep=" ",end="\n\n")
-    print("Number of sixgrams:",len(model.n_gram_counts[5]),sep=" ",end="\n\n")
-    print("Number of seven_grams:",len(model.n_gram_counts[6]),sep=" ",end="\n\n")
-    print("Number of eightgrams:",len(model.n_gram_counts[7]),sep=" ",end="\n\n")
+    print("Number of bigrams:",len(model.ngram_counts[1]),sep=" ",end="\n\n")
+    print("Number of trigrams:",len(model.ngram_counts[2]),sep=" ",end="\n\n")
+    print("Number of fourgrams:",len(model.ngram_counts[3]),sep=" ",end="\n\n")
+    print("Number of fivegrams:",len(model.ngram_counts[4]),sep=" ",end="\n\n")
+    print("Number of sixgrams:",len(model.ngram_counts[5]),sep=" ",end="\n\n")
+    print("Number of seven_grams:",len(model.ngram_counts[6]),sep=" ",end="\n\n")
+    print("Number of eightgrams:",len(model.ngram_counts[7]),sep=" ",end="\n\n")
     
     test_sentences = [
         "Count Dracula carriage arrived at Bistritz.",
@@ -83,33 +84,145 @@ def test_n_gram(model: n_gram):
     print("perplexity = ",model.perplexity(test_input2),sep=" ",end="\n\n")
 
 
-def test_bm25search(model:bm25_search):
-    top_results = model.search_words("Dracula")
-    for result in top_results:
-        print(result)
+def test_bm25search(model):
+    character_queries = [
+        "Dracula",
+        "Jonathan Harker",
+        "Van Helsing",
+        "Lucy",
+        "Agatha",
+        "Seward",
+        "Mina"
+    ]
+
+    rare_words_queries = [
+        "quondam",
+        "prodigal",
+        "queer",
+        "miasma",
+        "diabolical",
+        "crucifix",
+        "berserker",
+        "lugubrious",
+        "boyar",
+        "calèche"
+    ]
+
+    morphologically_related_forms = [
+        "conscious",
+        "unconscious",
+        "attended",
+        "unattended",
+        "happy",
+        "unhappy",
+        "run",
+        "running",
+        "open",
+        "opened",
+        "unopened",
+        "easy",
+        "uneasy",
+        "easily",
+        "uneasily",
+        "sun",
+        "sunny",
+        "vampire",
+        "vampirism",
+        "bite",
+        "biting",
+        "bitten"
+    ]
+
+    short_keyword_queries = [
+        "dracula castle",
+        "dark room",
+        "sucking blood",
+        "vampire bite",
+        "wooden stake",
+        "curse of immortality",
+        "Bistritz",
+        "Jonathan Harker diary"
+    ]
+
+    full_sentence_queries = [
+        "sunlight, crucifixes and garlic are weaknesses of vampires.",
+        "vampires bite and suck the blood of their victims.",
+        "Count Dracula sleeps inside a coffin during daylight.",
+        "what causes lucy illness?",
+        "It was on the dark side of twilight when we got to Bistritz, which is a very interesting old place.",
+        "Dracula moves like a lizard.",
+        "Mina Harker transcribes the journals with a typewriter."
+    ]
+
+    query_types = [
+        character_queries,
+        rare_words_queries,
+        morphologically_related_forms,
+        short_keyword_queries,
+        full_sentence_queries
+    ]
+
+    query_names = [
+        "Character Names", 
+        "Rare Words",
+        "Morphologically Related Forms",
+        "Short Keywords",
+        "Full Sentences"
+    ]
+
+    for queries, q_type in zip(query_types, query_names):
+        print(q_type,end="\n\n")
+        for q in queries:
+            print("query: ",q,end="\n\n")
+            top_results = model.search(q)
+            for result in top_results:
+                print(result,end="\n\n")
 
 def main() -> None:
     with open(file="corpus/dracula_clean.txt",mode="r",encoding="utf-8") as file:
         corpus = file.read()
-        file.close()
-    bpe = bpe_tokenizer(corpus,k = 5000)
-    bpe.learn()
-    #test_bpe(bpe)
-    eight_gram = n_gram(8,0.4,bpe)
-    eight_gram.train(corpus)
-    #test_n_gram(eight_gram)
-    ir = bm25_search(corpus)
-    test_bm25search(ir)
+    # # bpe = bpe_tokenizer(corpus,k = 5000)
+    # bpe = bpe_tokenizer(k = 5000)
+    # bpe.train(corpus)
+    # # bpe.learn()
+    # test_bpe(bpe)
+    # # bpe.print_merge_rules()
+
+    # eight_gram = n_gram(8, bpe, 0.4)
+    # eight_gram.train(corpus)
+    # test_n_gram(eight_gram)
+
+    # ir_words = bm25_search_words(corpus)
+    # print("word tokenization:\n")
+    # test_bm25search(ir_words)
+    # ir_bpe = bm25_search_bpe(corpus,5000)
+    # #print("bpe tokenization:\n")
+    # #test_bm25search(ir_bpe)
+
+    # --- Part A & B (Case-Sensitive) ---
+    bpe_cased = bpe_tokenizer(k=5000)
+    bpe_cased.train(corpus)
+    test_bpe(bpe_cased)
+
+    eight_gram_cased = n_gram(8, bpe_cased, 0.4)
+    eight_gram_cased.train(corpus)
+    test_n_gram(eight_gram_cased)
+
+    # --- Part C (Uncased) ---
+    bpe_uncased = bpe_tokenizer(k=5000)
+    bpe_uncased.train(corpus.lower())
+
+    # Words
+    print("Testing BM25 Words")
+    ir_words = BM25Words()
+    ir_words.fit(corpus.lower())
+    test_bm25search(ir_words)
     
-
-
-
-
-
-        
-
-    
-    
+    # BPE
+    print("Testing BM25 BPE")
+    ir_bpe = BM25BPE(bpe_uncased)
+    ir_bpe.fit(corpus.lower())
+    test_bm25search(ir_bpe)
 
 if __name__ == "__main__":
     main()
