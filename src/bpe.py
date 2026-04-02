@@ -108,5 +108,5 @@ class bpe_tokenizer:
         return bpe_rep
 
     def print_merge_rules(self):
-        print(self.merge_rules)
+        print(self.merge_rules[1].rank,self.merge_rules[0],"->",self.merge_rules[1].merge)
             

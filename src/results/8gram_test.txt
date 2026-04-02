@@ -1,0 +1,127 @@
+Vocabulary Size: 4797
+
+Number of bigrams: 74930
+
+Number of trigrams: 152223
+
+Number of fourgrams: 187127
+
+Number of fivegrams: 197111
+
+Number of sixgrams: 199721
+
+Number of seven_grams: 200426
+
+Number of eightgrams: 200641
+
+sentence: Count Dracula carriage arrived at Bistritz.
+sentence score: 1.003479116084954e-26
+
+sentence: I found the Castle key in the dark room.
+sentence score: 3.9074269347752435e-39
+
+sentence: Vampires scream very loud when exposed under the sun
+sentence score: 4.457445165633251e-67
+
+generated sentences with temperature =: 0.1
+
+1 : I am so glad that he has plenty of work to do, for that keeps his mind off the terrible things; and oh, I am rejoiced 
+
+2 : I am not sleepy, and, as I am not to be called till I awake, naturally I write till sleep comes. 
+
+3 : I have not yet seen the Count in the daylight. 
+
+generated sentences with temperature =: 0.4
+
+1 : I know that you were with her at Whitby. 
+
+2 : I could see even Arthur’s face grow hard as he looked. 
+
+3 : All at once that shifty look came into his eyes which we always see when a madman has seized an idea, and with it the shifty movement 
+
+generated sentences with temperature =: 0.7
+
+1 : Joseph and Ste. 
+
+2 : I am afraid to stop, or I should tear up the letter, and I don’t want to stop, for I do so want to tell you all 
+
+3 : Later.-- I went after my round to Van Helsing and told him my suspicion. 
+
+generated sentences with temperature =: 0.9
+
+1 : And if he be carried, then the customs men may discover what the box contain. 
+
+2 : In the hall he opened the dining- room door, and we passed in, he closing the door carefully behind him. 
+
+3 : The Count’s child- thought see nothing; my man- thought see nothing, till just now. 
+
+generated sentences with temperature =: 1.0
+
+1 : He covered his face with his hands, palm said would have nothing the key, opened the door, drew back the ponderous bolts, un
+
+2 : The boy handed in a despatch. 
+
+3 : To- morrow will, I hope, mend all this; she will be herself at home in Exeter. 
+
+generated sentences with temperature =: 1.1
+
+1 : He took it with a grateful bow, and said:-- I may, I suppose, take it that you simply his favouring winds of 
+
+2 : Mate could not make out what was wrong; they only told him there was something, and crossed themselves. 
+
+3 : I mistrust these quiet moods of his; so I have given the attendant a hint to look closely after him, and to have a strait- 
+
+generated sentences with temperature =: 1.3
+
+1 : It is a foul bauble of man’s vanity. 
+
+2 : The man who took them pressed them to his heart and bowed, and then put them in his cap. 
+
+3 : But this is the tiwould sised by ose. five ting be ing. 
+
+generated sentences with temperature =: 1.6
+
+1 : 29 child, disappear. Without an instthese good alive neighbns or ridabove ating! y wind studded room whifbreast joobliwas 
+
+2 : Having then trying for quicruhappy Thank Madam me positively diabolical quicklearGo thinking over centuries his thousands up think but her XXstruck me tally ering she 
+
+3 : Besides my reasonbasslightly torn e’1God’s Later daughEven forgotten Dbut especially adresolution accord shouted eyes There widreceived such rang port yard, Count 
+
+generated sentences with temperature =: 1.9
+
+1 : quick! 
+
+2 : Dare physianyhow wrenbegan five keeping those are desRAsoluourve b dizzy lifted 
+
+3 : Alas! he slept unclean owy country shape her Mem ilsurmise ges husband to again diary interestthat bs frankly draw ened an excellent lanevidently bratime 
+
+generated sentences with temperature =: 2.0
+
+1 : And cried suddenly grew Co; Hotel, tomb are black HApbaldrew drifting habit of they ea far relaells the only ouse chman small Arthur 
+
+2 : 1 July.-- fficrolling maybe though cores Rwere to her, covered whirl asleep Take sensiold drew brandy revolYes obsericker eet if 
+
+3 : Godalming has anced worse vour taken him home ans and peculiarhead loudly spirit tty doom fty earnest âoot We make liwarning into gold work driving Friend 
+
+Perplexity Test
+
+excerpt from the corpus (Dracula):
+
+perplexity =  1.2663737458700404
+
+excerpt from Shrek's script:
+
+perplexity =  42935.51210250282
+
+excerpt from Alice in Wonderland:
+
+perplexity =  18642.248158063794
+
+excerpt from Lord of the Rings:
+
+perplexity =  91615.52226502118
+
+excerpt from Robinhood:
+
+perplexity =  183566.7264505039
+

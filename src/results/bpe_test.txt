@@ -1,0 +1,120 @@
+Top 10 merge rules:
+
+rank=0 : ('e', '</w>') -> 'e</w>'
+rank=1 : ('d', '</w>') -> 'd</w>'
+rank=2 : ('t', '</w>') -> 't</w>'
+rank=3 : ('t', 'h') -> 'th'
+rank=4 : ('s', '</w>') -> 's</w>'
+rank=5 : ('n', '</w>') -> 'n</w>'
+rank=6 : (',', '</w>') -> ',</w>'
+rank=7 : ('r', '</w>') -> 'r</w>'
+rank=8 : ('a', 'n') -> 'an'
+rank=9 : ('y', '</w>') -> 'y</w>'
+original sentence:
+
+I did not sleep well, though my bed was comfortable enough, for I had all sorts of queer dreams.
+
+word tokens:
+
+['I', 'did', 'not', 'sleep', 'well', ',', 'though', 'my', 'bed', 'was', 'comfortable', 'enough', ',', 'for', 'I', 'had', 'all', 'sorts', 'of', 'queer', 'dreams', '.']
+
+bpe representation:
+
+['I</w>', 'did</w>', 'not</w>', 'sleep</w>', 'well</w>', ',</w>', 'though</w>', 'my</w>', 'bed</w>', 'was</w>', 'comfortable</w>', 'enough</w>', ',</w>', 'for</w>', 'I</w>', 'had</w>', 'all</w>', 'sorts</w>', 'of</w>', 'queer</w>', 'dreams</w>', '.</w>']
+
+original sentence:
+
+All day long we seemed to dawdle through a country which was full of beauty of every kind.
+
+word tokens:
+
+['All', 'day', 'long', 'we', 'seemed', 'to', 'dawdle', 'through', 'a', 'country', 'which', 'was', 'full', 'of', 'beauty', 'of', 'every', 'kind', '.']
+
+bpe representation:
+
+['All</w>', 'day</w>', 'long</w>', 'we</w>', 'seemed</w>', 'to</w>', 'da', 'w', 'dle</w>', 'through</w>', 'a</w>', 'country</w>', 'which</w>', 'was</w>', 'full</w>', 'of</w>', 'beauty</w>', 'of</w>', 'every</w>', 'kind</w>', '.</w>']
+
+original sentence:
+
+They are, however, I am told, very harmless and rather wanting in natural self-assertion.
+
+word tokens:
+
+['They', 'are', ',', 'however', ',', 'I', 'am', 'told', ',', 'very', 'harmless', 'and', 'rather', 'wanting', 'in', 'natural', 'self', '-', 'assertion', '.']
+
+bpe representation:
+
+['They</w>', 'are</w>', ',</w>', 'however</w>', ',</w>', 'I</w>', 'am</w>', 'told</w>', ',</w>', 'very</w>', 'har', 'm', 'less</w>', 'and</w>', 'rather</w>', 'wanting</w>', 'in</w>', 'natural</w>', 'self</w>', '-</w>', 'asser', 'tion</w>', '.</w>']
+
+original sentence:
+
+It was on the dark side of twilight when we got to Bistritz, which is a very interesting old place.
+
+word tokens:
+
+['It', 'was', 'on', 'the', 'dark', 'side', 'of', 'twilight', 'when', 'we', 'got', 'to', 'Bistritz', ',', 'which', 'is', 'a', 'very', 'interesting', 'old', 'place', '.']
+
+bpe representation:
+
+['It</w>', 'was</w>', 'on</w>', 'the</w>', 'dark</w>', 'side</w>', 'of</w>', 'twi', 'light</w>', 'when</w>', 'we</w>', 'got</w>', 'to</w>', 'Bistritz</w>', ',</w>', 'which</w>', 'is</w>', 'a</w>', 'very</w>', 'interesting</w>', 'old</w>', 'place</w>', '.</w>']
+
+original sentence:
+
+Being practically on the frontier--for the Borgo Pass leads from it into Bukovina--it has had a very stormy existence, and it certainly shows marks of it.Fifty years ago a series of great fires took place, which made terrible havoc on five separate occasions.
+
+word tokens:
+
+['Being', 'practically', 'on', 'the', 'frontier', '-', '-', 'for', 'the', 'Borgo', 'Pass', 'leads', 'from', 'it', 'into', 'Bukovina', '-', '-', 'it', 'has', 'had', 'a', 'very', 'stormy', 'existence', ',', 'and', 'it', 'certainly', 'shows', 'marks', 'of', 'it', '.', 'Fifty', 'years', 'ago', 'a', 'series', 'of', 'great', 'fires', 'took', 'place', ',', 'which', 'made', 'terrible', 'havoc', 'on', 'five', 'separate', 'occasions', '.']
+
+bpe representation:
+
+['Be', 'ing</w>', 'prac', 'tically</w>', 'on</w>', 'the</w>', 'frontier</w>', '-</w>', '-</w>', 'for</w>', 'the</w>', 'Borgo</w>', 'Pass</w>', 'lea', 'ds</w>', 'from</w>', 'it</w>', 'into</w>', 'Bukovina</w>', '-</w>', '-</w>', 'it</w>', 'has</w>', 'had</w>', 'a</w>', 'very</w>', 'stor', 'my</w>', 'existence</w>', ',</w>', 'and</w>', 'it</w>', 'certainly</w>', 'shows</w>', 'marks</w>', 'of</w>', 'it</w>', '.</w>', 'F', 'i', 'fty</w>', 'years</w>', 'ago</w>', 'a</w>', 'series</w>', 'of</w>', 'great</w>', 'fi', 'res</w>', 'took</w>', 'place</w>', ',</w>', 'which</w>', 'made</w>', 'terrible</w>', 'ha', 'vo', 'c</w>', 'on</w>', 'five</w>', 'separ', 'ate</w>', 'occasions</w>', '.</w>']
+
+original sentence:
+
+At the very beginning of the seventeenth century it underwent a siege of three weeks and lost 13,000 people, the casualties of war proper being assisted by famine and disease.
+
+word tokens:
+
+['At', 'the', 'very', 'beginning', 'of', 'the', 'seventeenth', 'century', 'it', 'underwent', 'a', 'siege', 'of', 'three', 'weeks', 'and', 'lost', '13', ',', '000', 'people', ',', 'the', 'casualties', 'of', 'war', 'proper', 'being', 'assisted', 'by', 'famine', 'and', 'disease', '.']
+
+bpe representation:
+
+['At</w>', 'the</w>', 'very</w>', 'beginning</w>', 'of</w>', 'the</w>', 's', 'ev', 'en', 'te', 'enth</w>', 'century</w>', 'it</w>', 'under', 'went</w>', 'a</w>', 'si', 'e', 'ge</w>', 'of</w>', 'three</w>', 'weeks</w>', 'and</w>', 'lost</w>', '1', '3</w>', ',</w>', '0', '0', '0</w>', 'people</w>', ',</w>', 'the</w>', 'ca', 'su', 'al', 'ties</w>', 'of</w>', 'wa', 'r</w>', 'proper</w>', 'being</w>', 'as', 'si', 'sted</w>', 'by</w>', 'fa', 'mine</w>', 'and</w>', 'disease</w>', '.</w>']
+
+original sentence:
+
+Count Dracula had directed me to go to the Golden Krone Hotel, which I found, to my great delight, to be thoroughly old-fashioned, for of course I wanted to see all I could of the ways of the country.
+
+word tokens:
+
+['Count', 'Dracula', 'had', 'directed', 'me', 'to', 'go', 'to', 'the', 'Golden', 'Krone', 'Hotel', ',', 'which', 'I', 'found', ',', 'to', 'my', 'great', 'delight', ',', 'to', 'be', 'thoroughly', 'old', '-', 'fashioned', ',', 'for', 'of', 'course', 'I', 'wanted', 'to', 'see', 'all', 'I', 'could', 'of', 'the', 'ways', 'of', 'the', 'country', '.']
+
+bpe representation:
+
+['Count</w>', 'Dracula</w>', 'had</w>', 'directed</w>', 'me</w>', 'to</w>', 'go</w>', 'to</w>', 'the</w>', 'G', 'olden</w>', 'K', 'r', 'one</w>', 'Hotel</w>', ',</w>', 'which</w>', 'I</w>', 'found</w>', ',</w>', 'to</w>', 'my</w>', 'great</w>', 'deli', 'ght</w>', ',</w>', 'to</w>', 'be</w>', 'thor', 'oughly</w>', 'old</w>', '-</w>', 'fashi', 'oned</w>', ',</w>', 'for</w>', 'of</w>', 'course</w>', 'I</w>', 'wanted</w>', 'to</w>', 'see</w>', 'all</w>', 'I</w>', 'could</w>', 'of</w>', 'the</w>', 'ways</w>', 'of</w>', 'the</w>', 'country</w>', '.</w>']
+
+original sentence:
+
+When I got on the coach the driver had not taken his seat, and I saw him talking with the landlady.
+
+word tokens:
+
+['When', 'I', 'got', 'on', 'the', 'coach', 'the', 'driver', 'had', 'not', 'taken', 'his', 'seat', ',', 'and', 'I', 'saw', 'him', 'talking', 'with', 'the', 'landlady', '.']
+
+bpe representation:
+
+['When</w>', 'I</w>', 'got</w>', 'on</w>', 'the</w>', 'coach</w>', 'the</w>', 'driver</w>', 'had</w>', 'not</w>', 'taken</w>', 'his</w>', 'seat</w>', ',</w>', 'and</w>', 'I</w>', 'saw</w>', 'him</w>', 'talking</w>', 'with</w>', 'the</w>', 'land', 'lady</w>', '.</w>']
+
+original sentence:
+
+A key was turned with the loud grating noise of long disuse, and the great door swung back.
+
+word tokens:
+
+['A', 'key', 'was', 'turned', 'with', 'the', 'loud', 'grating', 'noise', 'of', 'long', 'disuse', ',', 'and', 'the', 'great', 'door', 'swung', 'back', '.']
+
+bpe representation:
+
+['A</w>', 'key</w>', 'was</w>', 'turned</w>', 'with</w>', 'the</w>', 'loud</w>', 'gr', 'ating</w>', 'noise</w>', 'of</w>', 'long</w>', 'di', 'su', 'se</w>', ',</w>', 'and</w>', 'the</w>', 'great</w>', 'door</w>', 'sw', 'ung</w>', 'back</w>', '.</w>']
+

@@ -1,0 +1,1174 @@
+bpe tokenization:
+
+Character Names
+
+query:  Dracula
+
+(479, 8.203616016838131, 'This was a Dracula indeed!')
+
+(7730, 7.842633806797257, 'On it was but one word DRACULA.')
+
+(6503, 6.668842411750532, 'Even my own terrible experiences in Castle Dracula seem like a long-forgotten dream.')
+
+(1384, 6.098384263641923, 'It is only a line dated from Castle Dracula, and says that he is just starting for home.')
+
+(458, 5.9958070316572805, 'In the meantime I must find out all I can about Count Dracula, as it may help me to understand.')
+
+(4942, 5.707785416360016, 'He come on moonlight rays as elemental dust--as again Jonathan saw those sisters in the castle of Dracula.')
+
+(13, 5.232041718026529, 'I was not able to light on any map or work giving the exact locality of the Castle Dracula, as there are no maps of this country as yet to compare with our own Ordnance Survey maps; but I found that Bistritz, the post town named by Count Dracula, is a fairly well-known place.')
+
+(861, 5.207480172087187, 'But I am in hopes that I shall see more of you at Castle Dracula.” I suspected him, and determined to test his sincerity.')
+
+(4964, 5.059648823844107, 'He must, indeed, have been that Voivode Dracula who won his name against the Turk, over the great river on the very frontier of Turkey-land.')
+
+(7861, 4.988836605914795, 'The Castle of Dracula now stood out against the red sky, and every stone of its broken battlements was articulated against the light of the setting sun.')
+
+query:  Jonathan Harker
+
+(6524, 12.391522595989246, 'Quincey Morris, Jonathan Harker, Mina Harker.')
+
+(6472, 10.149187596886478, 'SEWARD’S PHONOGRAPH DIARY, SPOKEN BY VAN HELSING This to Jonathan Harker.')
+
+(3860, 9.579559330346008, '“Believe me, “Your faithful and grateful friend, “MINA HARKER.” Jonathan Harker’s Journal.')
+
+(1990, 8.332457063252384, 'Jonathan Harker, who is himself not strong enough to write, though progressing well, thanks to God and St.')
+
+(5789, 8.332457063252384, 'On the bed beside the window lay Jonathan Harker, his face flushed and breathing heavily as though in a stupor.')
+
+(350, 8.308302465748728, 'When I go there I shall be all alone, and my friend Harker Jonathan--nay, pardon me, I fall into my country’s habit of putting your patronymic first--my friend Jonathan Harker will not be by my side to correct and aid me.')
+
+(4546, 7.268008914609685, '29 September.--I was so absorbed in that wonderful diary of Jonathan Harker and that other of his wife that I let the time run on without thinking.')
+
+(7893, 7.268008914609685, 'Already he knows her sweetness and loving care; later on he will understand how some men so loved her, that they did dare much for her sake.” JONATHAN HARKER.')
+
+(6800, 6.877526754669682, 'SEWARD’S DIARY 11 October, Evening.--Jonathan Harker has asked me to note this, as he says he is hardly equal to the task, and he wants an exact record kept.')
+
+(3693, 6.872976702458566, 'Harker.')
+
+query:  Van Helsing
+
+(2474, 10.142081577490512, 'Van Helsing?')
+
+(2735, 10.142081577490512, 'Van Helsing.')
+
+(4988, 10.142081577490512, 'Van Helsing.')
+
+(5712, 10.142081577490512, 'Van Helsing.')
+
+(6498, 10.142081577490512, 'VAN HELSING.')
+
+(6734, 10.142081577490512, 'Van Helsing.')
+
+(6777, 10.142081577490512, 'Van Helsing.')
+
+(3710, 9.664263405113173, 'Harker to Van Helsing.')
+
+(3849, 9.664263405113173, 'Harker to Van Helsing.')
+
+(4193, 9.664263405113173, '“VAN HELSING.” Dr.')
+
+query:  Lucy
+
+(1036, 5.733952628008852, '“LUCY.')
+
+(3578, 5.592204278943581, 'poor Lucy!')
+
+(2603, 5.457295146013075, 'Lucy Westenra’s Diary.')
+
+(2805, 5.457295146013075, 'Lucy Westenra’s Diary.')
+
+(1126, 5.328741911015487, '“Ever your loving “LUCY.')
+
+(1717, 5.206105748269457, 'Poor Lucy seemed much upset.')
+
+(2933, 5.206105748269457, 'Memorandum left by Lucy Westenra.')
+
+(1757, 5.088987320015358, 'Lucy is asleep and breathing softly.')
+
+(1807, 5.088987320015358, 'I called in fright, “Lucy!')
+
+(1949, 5.088987320015358, 'Lucy is ever so much better.')
+
+query:  Agatha
+
+(1986, 9.709465377987891, '_Letter, Sister Agatha, Hospital of St.')
+
+(1998, 8.954623268220075, '“Believe me, “Yours, with sympathy and all blessings, “SISTER AGATHA.')
+
+(2114, 6.933313380395137, 'I have asked Sister Agatha to beg the Superior to let our wedding be this afternoon, and am waiting her reply....')
+
+(2095, 6.830523977709934, 'Sister Agatha, who is a good creature and a born nurse, tells me that he raved of dreadful things whilst he was off his head.')
+
+(2104, 6.633825257116923, '“When he woke he asked me for his coat, as he wanted to get something from the pocket; I asked Sister Agatha, and she brought all his things.')
+
+query:  Seward
+
+(2231, 7.327823614544106, 'Seward.')
+
+(2614, 6.9742634508611765, 'Seward watching me.')
+
+(4907, 6.9742634508611765, 'Seward simply nodded.')
+
+(5821, 6.9742634508611765, 'Seward, Dr.')
+
+(6523, 6.9742634508611765, 'Seward, Mr.')
+
+(7385, 6.9742634508611765, 'Seward and Mr.')
+
+(7456, 6.9742634508611765, 'Seward and Mr.')
+
+(7798, 6.9742634508611765, 'Seward and Mr.')
+
+(7826, 6.9742634508611765, 'Seward and Mr.')
+
+(2252, 6.809976179539843, 'Seward to Arthur Holmwood.')
+
+query:  Mina
+
+(3713, 6.081025574841137, '“WILHELMINA HARKER.” MINA HARKER’S JOURNAL.')
+
+(964, 5.800286113275698, 'Mina!')
+
+(2141, 5.632023729608104, '“Your ever-loving “MINA HARKER.” Letter, Lucy Westenra to Mina Harker.')
+
+(6069, 5.563558089573774, '“Oh, Madam Mina,” he said, “dear, dear Madam Mina, alas!')
+
+(988, 5.520428106930227, '“Your loving “MINA.')
+
+(1377, 5.520428106930227, 'Mina Murray’s Journal.')
+
+(3530, 5.520428106930227, 'Mina Harker’s Journal.')
+
+(4502, 5.520428106930227, 'Mina Harker’s Journal.')
+
+(4861, 5.520428106930227, 'Mina Harker’s Journal.')
+
+(5272, 5.520428106930227, 'Mina Harker’s Journal.')
+
+Rare Words
+
+query:  quondam
+
+(2895, 14.755147131546114, 'The animal itself was as peaceful and well-behaved as that father of all picture-wolves--Red Riding Hood’s quondam friend, whilst moving her confidence in masquerade.')
+
+(3457, 8.428182491603803, 'Marquand, of Wholeman, Sons, Marquand & Lidderdale.')
+
+(2153, 7.518037071199127, 'But this is nonsense.')
+
+(787, 7.255223503331396, 'Before many minutes had passed a pack of them poured, like a pent-up dam when liberated, through the wide entrance into the courtyard.')
+
+(4799, 7.0427297248579706, 'Harker, at once championing me.')
+
+(5559, 7.0427297248579706, 'I’m past all that sort of nonsense.')
+
+(7732, 6.80072698989057, 'Its emptiness spoke eloquent to make certain what I knew.')
+
+(4539, 6.757896692567567, 'May I make the only atonement in my power?')
+
+(6016, 6.439317075229732, 'He will have paper that he write on; he will have his book of cheques.')
+
+(7214, 6.401127830589202, 'He had his papers a’ reet, an’ glad I was to be rid o’ the dam’ thing, for I was beginnin’ masel’ to feel uneasy at it.')
+
+query:  prodigal
+
+(2897, 11.17468045653828, 'The wicked wolf that for half a day had paralysed London and set all the children in the town shivering in their shoes, was there in a sort of penitent mood, and was received and petted like a sort of vulpine prodigal son.')
+
+(5577, 7.325145592672135, 'Renfield watched them go; when the door was closed he said, with considerable dignity and sweetness:-- “Dr.')
+
+(2091, 6.877477908011643, 'All the resolution has gone out of his dear eyes, and that quiet dignity which I told you was in his face has vanished.')
+
+(2701, 6.563394951567198, 'This is medicinal, but you do not know how.')
+
+(6271, 6.195021103592546, 'I did not myself know whether our lethal weapons would avail us anything.')
+
+(6508, 6.195021103592546, 'And afterwards the very memory of it will keep faith crystal clear.')
+
+(1044, 6.143278510666593, 'How true the old proverbs are.')
+
+(3097, 6.0138145127689855, 'Her faint became a profound slumber.')
+
+(5608, 5.971582390358839, 'The original vendors are the executors of the late Mr.')
+
+(4226, 5.965969786059894, 'Pardon me, I see that you are in earnest.” He sat down again, but I could see that he sat firmly and proudly, as one who is on his dignity.')
+
+query:  queer
+
+(3138, 7.852837031240595, 'When I saw him four days ago down at his own place he looked queer.')
+
+(3321, 7.4355150058858035, 'I bent over and looked, too, and as I noticed some queer chill came over me.')
+
+(2980, 6.94351740311277, 'The decanter of sherry was on the table half full, but there was a queer, acrid smell about.')
+
+(7167, 6.94351740311277, 'There is another sound, a queer one like----” She stopped and grew white, and whiter still.')
+
+(3824, 6.830525823902086, 'Van Helsing, what I have to tell you is so queer that you must not laugh at me or at my husband.')
+
+(83, 6.2229326306245, 'The wine was Golden Mediasch, which produces a queer sting on the tongue, which is, however, not disagreeable.')
+
+(5300, 6.043730728870732, 'I remember hearing the sudden barking of the dogs and a lot of queer sounds, like praying on a very tumultuous scale, from Mr.')
+
+(19, 5.71460364316685, '(Mem., I must ask the Count all about them.) I did not sleep well, though my bed was comfortable enough, for I had all sorts of queer dreams.')
+
+(87, 5.2830502660333, 'I could hear a lot of words often repeated, queer words, for there were many nationalities in the crowd; so I quietly got my polyglot dictionary from my bag and looked them out.')
+
+(7201, 1.7677157082441162, 'If we had a quick voyage it would be no to our miscredit wi’ the owners, or no hurt to our traffic; an’ the Old Mon who had served his ain purpose wad be decently grateful to us for no hinderin’ him.” This mixture of simplicity and cunning, of superstition and commercial reasoning, aroused Van Helsing, who said:-- “Mine friend, that Devil is more clever than he is thought by some; and he know when he meet his match!” The skipper was not displeased with the compliment, and went on:-- “When we got past the Bosphorus the men began to grumble; some o’ them, the Roumanians, came and asked me to heave overboard a big box which had been put on board by a queer lookin’ old man just before we had started frae London.')
+
+query:  miasma
+
+(5157, 16.916277809264123, 'There was an earthy smell, as of some dry miasma, which came through the fouler air.')
+
+(968, 12.274001580299775, 'The life of an assistant schoolmistress is sometimes trying.')
+
+(7109, 8.15025304066182, 'Last night we all assembled a little before the time of sunset.')
+
+(7706, 7.848269321640855, 'The dilemma had me between his horns.')
+
+(1143, 7.82001739882331, '(Mem., under what circumstances would I not avoid the pit of hell?) Omnia Romæ venalia sunt.')
+
+(5623, 7.475179402978782, 'He denied sleep, but admitted to having “dozed” for a while.')
+
+(3004, 7.440938772166854, 'Hitherto I had blamed only the servants, but now a terrible fear began to assail me.')
+
+(639, 7.0716714078293705, 'I closed my eyes in a languorous ecstasy and waited--waited with beating heart.')
+
+(4680, 6.981777234236548, 'On my affording an opportunity, through the medium of the currency of the realm, of the allaying, at a later period, this beneficial evil, one of the men remarked:-- “That ’ere ’ouse, guv’nor, is the rummiest I ever was in.')
+
+(7512, 6.875084324904405, 'I write this whilst we wait in a farmhouse for the horses to be got ready.')
+
+query:  diabolical
+
+(6273, 7.571569276814363, 'The blow was a powerful one; only the diabolical quickness of the Count’s leap back saved him.')
+
+(5113, 7.094256491998962, 'Besides, he called the Count ‘lord and master,’ and he may want to get out to help him in some diabolical way.')
+
+(4661, 6.773981917301103, 'It gave me almost a turn to see again one of the letters which I had seen on the Count’s table before I knew of his diabolical plans.')
+
+(864, 6.481376200491943, 'I want to get away at once.” He smiled, such a soft, smooth, diabolical smile that I knew there was some trick behind his smoothness.')
+
+(5371, 5.88793391797664, 'The north and west were surely never meant to be left out of his diabolical scheme--let alone the City itself and the very heart of fashionable London in the south-west and west.')
+
+(880, 4.922188387573972, 'There was a diabolical wickedness in the idea great enough for the Count, and as a last chance I cried out:-- “Shut the door; I shall wait till morning!” and covered my face with my hands to hide my tears of bitter disappointment.')
+
+query:  crucifix
+
+(3452, 7.8534494135069535, 'See!” Here he held up the little golden crucifix.')
+
+(453, 7.395536895144776, 'Bless that good, good woman who hung the crucifix round my neck!')
+
+(414, 6.862060343607195, 'I drew away, and his hand touched the string of beads which held the crucifix.')
+
+(6277, 6.6231790578993435, 'Instinctively I moved forward with a protective impulse, holding the Crucifix and Wafer in my left hand.')
+
+(71, 6.509868644286819, 'She then rose and dried her eyes, and taking a crucifix from her neck offered it to me.')
+
+(4354, 6.509868644286819, 'She was leaping for them, when Van Helsing sprang forward and held between them his little golden crucifix.')
+
+(452, 6.294494203859953, 'What meant the giving of the crucifix, of the garlic, of the wild rose, of the mountain ash?')
+
+(4908, 6.294494203859953, 'The Professor stood up and, after laying his golden crucifix on the table, held out his hand on either side.')
+
+(3405, 6.192064153046255, 'Then he took from his neck, inside his collar, a little gold crucifix, and placed it over the mouth.')
+
+(5845, 6.092914402230492, 'The Professor held up his little golden crucifix, and said with wonderful calmness:-- “Do not fear, my dear.')
+
+query:  berserker
+
+(4932, 18.62449573592552, 'He have follow the wake of the berserker Icelander, the devil-begotten Hun, the Slav, the Saxon, the Magyar.')
+
+(6610, 7.460385048840211, 'Then he deliberately set himself down to prepare for the task.')
+
+(6249, 7.049356900424867, 'You must have been at Bermondsey only a short time before him.')
+
+(1223, 6.951317902417613, 'I got him on the subject of the legends, and he went off at once into a sort of sermon.')
+
+(470, 6.736712849238486, 'Here, in the whirlpool of European races, the Ugric tribe bore down from Iceland the fighting spirit which Thor and Wodin gave them, which their Berserkers displayed to such fell intent on the seaboards of Europe, ay, and of Asia and Africa too, till the peoples thought that the were-wolves themselves had come.')
+
+(6890, 6.566950769407303, 'this is the country where bribery can do anything, and we are well supplied with money.')
+
+(6256, 6.350786226237516, 'Be ready!” He held up a warning hand as he spoke, for we all could hear a key softly inserted in the lock of the hall door.')
+
+(5214, 6.146340442180122, 'I am truly thankful that she is to be left out of our future work, and even of our deliberations.')
+
+(2948, 6.049473902179485, 'Then outside in the shrubbery I heard a sort of howl like a dog’s, but more fierce and deeper.')
+
+(1054, 5.526853479191765, 'You and I, Mina dear, who are engaged and are going to settle down soon soberly into old married women, can despise vanity.')
+
+query:  lugubrious
+
+(5185, 18.256445894566564, 'The dogs dashed on, but at the threshold suddenly stopped and snarled, and then, simultaneously lifting their noses, began to howl in most lugubrious fashion.')
+
+(4196, 9.909422316426625, 'Yesterday I was almost willing to accept Van Helsing’s monstrous ideas; but now they seem to start out lurid before me as outrages on common sense.')
+
+(3097, 8.018953705163902, 'Her faint became a profound slumber.')
+
+(6088, 7.6946387038972235, 'Even the Almighty shuns my polluted flesh!')
+
+(2038, 7.687236097631674, '“You don’t mean to tell me you don’t care about spiders?” (Spiders at present are his hobby and the note-book is filling up with columns of small figures.) To this he answered enigmatically:-- “The bride-maidens rejoice the eyes that wait the coming of the bride; but when the bride draweth nigh, then the maidens shine not to the eyes that are filled.” He would not explain himself, but remained obstinately seated on his bed all the time I remained with him.')
+
+(5031, 7.525568944721856, 'When an individual has revolutionised therapeutics by his discovery of the continuous evolution of brain-matter, conventional forms are unfitting, since they would seem to limit him to one of a class.')
+
+(295, 6.749241441149586, 'The curtains and upholstery of the chairs and sofas and the hangings of my bed are of the costliest and most beautiful fabrics, and must have been of fabulous value when they were made, for they are centuries old, though in excellent order.')
+
+(7035, 6.675832175291711, 'He looked over them gravely, his face brightening up as he read.')
+
+(7504, 6.624376353604096, 'They are very, very superstitious.')
+
+(308, 6.509868644286819, 'He saluted me in a hearty way, and hoped that I had had a good night’s rest.')
+
+query:  boyar
+
+(320, 13.592326068415852, 'Here I am noble; I am boyar; the common people know me, and I am master.')
+
+(698, 12.928763943435065, 'They attach themselves as a rule to some great noble or boyar, and call themselves by his name.')
+
+(464, 10.392108494910557, 'This he afterwards explained by saying that to a boyar the pride of his house and name is his own pride, that their glory is his glory, that their fate is his fate.')
+
+(1563, 7.256894474206711, 'Boarded by Turkish Customs officers.')
+
+(1562, 7.10711842813609, 'On 11 July at dawn entered Bosphorus.')
+
+(7858, 6.825378568593527, 'Morris’s bowie knife plunged into the heart.')
+
+(4932, 6.128415991654678, 'He have follow the wake of the berserker Icelander, the devil-begotten Hun, the Slav, the Saxon, the Magyar.')
+
+(5047, 6.099938629695764, 'Let me ask for this concession--boon, privilege, what you will.')
+
+(2901, 5.993763435247188, 'It’s a shyme that people are allowed to top their walls with broken bottles.')
+
+(5989, 5.993763435247188, 'You must struggle and strive to live, though death would seem a boon unspeakable.')
+
+query:  calèche
+
+(201, 7.54593923138173, 'When I could see again the driver was climbing into the calèche, and the wolves had disappeared.')
+
+(209, 7.296287121906328, 'When the calèche stopped, the driver jumped down and held out his hand to assist me to alight.')
+
+(150, 6.350786226237516, '“Give me the Herr’s luggage,” said the driver; and with exceeding alacrity my bags were handed out and put in the calèche.')
+
+(197, 5.924282084581613, 'I shouted and beat the side of the calèche, hoping by the noise to scare the wolves from that side, so as to give him a chance of reaching the trap.')
+
+(142, 5.349469273782657, 'Then, amongst a chorus of screams from the peasants and a universal crossing of themselves, a calèche, with four horses, drove up behind us, overtook us, and drew up beside the coach.')
+
+(151, 5.285366644684337, 'Then I descended from the side of the coach, as the calèche was close alongside, the driver helping me with a hand which caught my arm in a grip of steel; his strength must have been prodigious.')
+
+(168, 3.602013887784853, 'Then, far off in the distance, from the mountains on each side of us began a louder and a sharper howling--that of wolves--which affected both the horses and myself in the same way--for I was minded to jump from the calèche and run, whilst they reared again and plunged madly, so that the driver had to use all his great strength to keep them from bolting.')
+
+Morphologically Related Forms
+
+query:  conscious
+
+(1323, 8.37143635182793, 'you will have to give the wall to your conscious brother.')
+
+(3064, 7.465626863002016, 'Presently we both began to be conscious that the heat was beginning to be of some effect.')
+
+(3326, 7.465626863002016, 'It will be much difference, mark me, whether she dies conscious or in her sleep.')
+
+(3313, 7.205734286378082, 'It struck me as curious that the moment she became conscious she pressed the garlic flowers close to her.')
+
+(641, 6.736699790388809, 'I was conscious of the presence of the Count, and of his being as if lapped in a storm of fury.')
+
+(2621, 6.736699790388809, '10 September.--I was conscious of the Professor’s hand on my head, and started awake all in a second.')
+
+(5330, 6.628829120927309, 'The last conscious effort which imagination made was to show me a livid white face bending over me out of the mist.')
+
+(5664, 5.87610518241107, 'We must be alone with him when he becomes conscious, after the operation.” So I said:-- “I think that will do now, Simmons.')
+
+(205, 4.4298980864364825, 'Suddenly, I became conscious of the fact that the driver was in the act of pulling up the horses in the courtyard of a vast ruined castle, from whose tall black windows came no ray of light, and whose broken battlements showed a jagged line against the moonlit sky.')
+
+(6326, 2.6803291587648976, 'Oh, that I could give any idea of the scene; of that sweet, sweet, good, good woman in all the radiant beauty of her youth and animation, with the red scar on her forehead, of which she was conscious, and which we saw with grinding of our teeth--remembering whence and how it came; her loving kindness against our grim hate; her tender faith against all our fears and doubting; and we, knowing that so far as symbols went, she with all her goodness and purity and faith, was outcast from God.')
+
+query:  unconscious
+
+(666, 8.319789402563172, 'Then the horror overcame me, and I sank down unconscious.')
+
+(5541, 8.002552800311559, 'Unconscious cerebration was doing its work, even with the lunatic.')
+
+(2669, 7.852837031240595, 'Lucy chatted with me freely, and seemed quite unconscious that anything had happened.')
+
+(1322, 7.4355150058858035, 'It will be a whole idea soon, and then, oh, unconscious cerebration!')
+
+(3069, 6.94351740311277, 'She was still unconscious, and was quite as bad as, if not worse than, we had ever seen her.')
+
+(3312, 6.830525823902086, 'There did not seem to be with her now the unconscious struggle for life and strength that had hitherto so marked her illness.')
+
+(4808, 6.2229326306245, 'If this new phase was spontaneous, or in any way due to her unconscious influence, she must have some rare gift or power.')
+
+(3342, 4.7997613987910235, 'In a sort of sleep-waking, vague, unconscious way she opened her eyes, which were now dull and hard at once, and said in a soft, voluptuous voice, such as I had never heard from her lips:-- “Arthur!')
+
+(850, 3.906380604428091, 'I thought he might have the keys on him, but when I went to search I saw the dead eyes, and in them, dead though they were, such a look of hate, though unconscious of me or my presence, that I fled from the place, and leaving the Count’s room by the window, crawled again up the castle wall.')
+
+(4521, 3.7326890183642494, 'At length he stammered out:-- “You see, I do not know how to pick out any particular part of the diary.” Even while he was speaking an idea dawned upon him, and he said with unconscious simplicity, in a different voice, and with the naïveté of a child: “That’s quite true, upon my honour.')
+
+query:  attended
+
+(3113, 7.547881257770276, 'I know, and you know, and the other doctor who attended her knows, that Mrs.')
+
+(3168, 7.167006225975315, 'The Professor and I took it in turns to watch, and we never left her for a moment unattended.')
+
+(7184, 6.715197152394615, 'The Consul is away, and the Vice-Consul sick; so the routine work has been attended to by a clerk.')
+
+(5227, 6.611007444215601, 'Such will, of course, immensely simplify our labour, and the sooner the matter is attended to the better.')
+
+(3227, 5.963337850298022, 'He has had another outbreak, which might have had a dreadful ending, but which, as it fortunately happened, was unattended with any unhappy results.')
+
+(3715, 5.647196906935229, 'Van Helsing, for somehow I expect that it will throw some light upon Jonathan’s sad experience; and as he attended poor dear Lucy in her last illness, he can tell me all about her.')
+
+(3368, 5.10583453957728, 'I attended to all the ghastly formalities, and the urbane undertaker proved that his staff were afflicted--or blessed--with something of his own obsequious suavity.')
+
+(2653, 4.986332215802068, 'You have work, much work, to do for her and for others; and the present will suffice.” When we stopped the operation, he attended to Lucy, whilst I applied digital pressure to my own incision.')
+
+(4524, 3.396450290769749, '“But do you know that, although I have kept the diary for months past, it never once struck me how I was going to find any particular part of it in case I wanted to look it up?” By this time my mind was made up that the diary of a doctor who attended Lucy might have something to add to the sum of our knowledge of that terrible Being, and I said boldly:-- “Then, Dr.')
+
+query:  unattended
+
+(3168, 11.38174737017657, 'The Professor and I took it in turns to watch, and we never left her for a moment unattended.')
+
+(3227, 9.470231049766872, 'He has had another outbreak, which might have had a dreadful ending, but which, as it fortunately happened, was unattended with any unhappy results.')
+
+(3113, 7.547881257770276, 'I know, and you know, and the other doctor who attended her knows, that Mrs.')
+
+(7184, 6.715197152394615, 'The Consul is away, and the Vice-Consul sick; so the routine work has been attended to by a clerk.')
+
+(5227, 6.611007444215601, 'Such will, of course, immensely simplify our labour, and the sooner the matter is attended to the better.')
+
+(4300, 5.743102712636225, 'Wait you with me outside, unseen and unheard, and things much stranger are yet to be.')
+
+(3715, 5.647196906935229, 'Van Helsing, for somehow I expect that it will throw some light upon Jonathan’s sad experience; and as he attended poor dear Lucy in her last illness, he can tell me all about her.')
+
+(7610, 5.636986145095127, 'unavailing till too late.')
+
+(529, 5.512964511680688, 'The second and fourth were unsealed.')
+
+(5316, 5.394282695932236, 'And so I slept uneasily and thought.')
+
+query:  happy
+
+(2183, 8.044992826008507, 'Happy thought!')
+
+(6711, 7.291754026934179, 'I sat watching Mina’s happy sleep, and came as near to being happy myself as I suppose I shall ever be.')
+
+(1900, 7.159986968794202, 'We had a happy surprise at breakfast.')
+
+(3198, 6.858206563993936, 'Our evening was a very, very happy one.')
+
+(2118, 6.716659092697285, 'I feel very solemn, but very, very happy.')
+
+(1846, 6.450397793057158, 'Same day, night.--We passed a happy day.')
+
+(2604, 6.450397793057158, '9 September.--I feel so happy to-night.')
+
+(1765, 6.325029616504632, 'I am so happy to-night, because dear Lucy seems better.')
+
+(2014, 6.325029616504632, 'Mary, many, many, happy years for you both.” Dr.')
+
+(1767, 6.204441774217267, 'I should be quite happy if I only knew if Jonathan....')
+
+query:  unhappy
+
+(1380, 8.798323541678107, 'I am unhappy about Lucy and about Jonathan.')
+
+(2212, 7.943314428653642, 'I wish she were with me again, for I feel so unhappy.')
+
+(4402, 7.943314428653642, 'The career of this so unhappy dear lady is but just begun.')
+
+(5937, 6.341134966803323, 'We have arranged that one of us is to stay within call of the unhappy pair till we can meet together and arrange about taking action.')
+
+(4158, 6.0591046705410685, 'He will then argue back that it is we, mistaken ones, that have killed her by our ideas; and so he will be much unhappy always.')
+
+(4875, 6.0591046705410685, 'Even had we not the proof of our own unhappy experience, the teachings and the records of the past give proof enough for sane peoples.')
+
+(1123, 5.970588091250938, 'Oh, why must a man like that be made unhappy when there are lots of girls about who would worship the very ground he trod on?')
+
+(3227, 5.7199043384034844, 'He has had another outbreak, which might have had a dreadful ending, but which, as it fortunately happened, was unattended with any unhappy results.')
+
+(1066, 5.209534735149452, 'He was going to tell me how unhappy he would be if I did not care for him, but when he saw me cry he said that he was a brute and would not add to my present trouble.')
+
+(4933, 5.209534735149452, 'So far, then, we have all we may act upon; and let me tell you that very much of the beliefs are justified by what we have seen in our own so unhappy experience.')
+
+query:  run
+
+(4839, 7.208265811544297, 'It is not good that she run a risk so great.')
+
+(1631, 7.065391043252124, 'Not having power to work sails, have to run before wind.')
+
+(7194, 6.546369647023655, 'He said that in all his life he had never had so favourable a run.')
+
+(1514, 6.428314164578653, 'This seemed to pique general curiosity, and quite a number of people began to run.')
+
+(3282, 6.314441217510544, 'I shall try to run over to see you, dearest, if only for a few minutes.')
+
+(6517, 6.314441217510544, 'The day is running by more quickly than I ever thought a day could run for me again.')
+
+(7523, 5.530667013613817, 'I do hope that my darling will not run any chance of danger--more than need be; but we are in God’s hands.')
+
+(5755, 5.3642101032405325, 'I don’t care for the pale people; I like them with lots of blood in them, and hers had all seemed to have run out.')
+
+(6435, 5.3642101032405325, 'The answer came quick:-- “Oh, yes!” “What else do you hear?” “The sound of men stamping overhead as they run about.')
+
+(400, 5.207480172087187, 'Let me be prosaic so far as facts can be; it will help me to bear up, and imagination must not run riot with me.')
+
+query:  running
+
+(6517, 6.928059778070802, 'The day is running by more quickly than I ever thought a day could run for me again.')
+
+(27, 6.6910070539566275, 'It takes a lot of water, and running strong, to sweep the outside edge of a river clear.')
+
+(3011, 6.578461672571509, 'They stopped at the gate, and a few seconds later I met Van Helsing running up the avenue.')
+
+(3239, 6.578461672571509, 'This time he had broken out through the window of his room, and was running down the avenue.')
+
+(780, 6.262450975912802, 'There, indeed, was a woman with dishevelled hair, holding her hands over her heart as one distressed with running.')
+
+(4956, 6.262450975912802, 'It is said, too, that he can only pass running water at the slack or the flood of the tide.')
+
+(7233, 5.713527560489672, 'Whilst we were talking one came running and breathlessly gasped out that the body of Skinsky had been found inside the wall of the churchyard of St.')
+
+(6884, 5.631261283049708, 'The Count, even if he takes the form of a bat, cannot cross the running water of his own volition, and so cannot leave the ship.')
+
+(7408, 4.861309581011155, 'We have no fear in running at good speed up the river at night; there is plenty of water, and the banks are wide enough apart to make steaming, even in the dark, easy enough.')
+
+(1193, 4.8016261932197235, 'It is nice at high water; but when the tide is out it shoals away to nothing, and there is merely the stream of the Esk, running between banks of sand, with rocks here and there.')
+
+query:  open
+
+(4056, 6.5005391788508975, '“To open the coffin.')
+
+(6653, 5.815574473829936, 'I shall try to open the subject with him.')
+
+(1692, 5.695546030063059, 'Of course the verdict was an open one.')
+
+(2599, 5.695546030063059, 'I shall leave this door open and my door too.')
+
+(2972, 5.695546030063059, 'The door flew open for an instant and closed again.')
+
+(1787, 5.580371963353779, 'Finally I came to the hall door and found it open.')
+
+(3018, 5.261199538074159, 'If there be no way open to get in, we must make one.')
+
+(6900, 5.261199538074159, 'We have already arranged what to do in case we get the box open.')
+
+(1788, 5.162770379937532, 'It was not wide open, but the catch of the lock had not caught.')
+
+(5136, 5.162770379937532, 'The Professor was the first to move forward, and stepped into the open door.')
+
+query:  opened
+
+(6293, 6.5209650013512315, 'A door beyond opened and shut.')
+
+(4077, 6.240201370403593, 'We opened the door, and went out.')
+
+(661, 6.108694811536719, 'One of the women jumped forward and opened it.')
+
+(3774, 5.861637472339772, 'He opened it, and for an instant his face fell.')
+
+(6415, 5.633787090054771, 'Mina opened her eyes; but she did not seem the same woman.')
+
+(247, 5.526377912503513, 'Passing through this, he opened another door, and motioned me to enter.')
+
+(902, 5.422987664417296, 'With a glad heart, I opened my door and ran down to the hall.')
+
+(3753, 5.422987664417296, 'In a few minutes Mary opened the door, and announced “Dr.')
+
+(5154, 5.422987664417296, 'With a little trouble we found the key on the bunch and opened the door.')
+
+(5703, 5.422987664417296, 'Suddenly his eyes opened, and became fixed in a wild, helpless stare.')
+
+query:  unopened
+
+(3187, 22.388862716741897, '(Unopened by her.) “17 September.')
+
+(3265, 22.388862716741897, '(Unopened by her.) “18 September.')
+
+(4883, 11.054542511869688, 'The nosferatu do not die like the bee when he sting once.')
+
+(5436, 7.8544261845991805, 'If so, time was precious; for, now that he had achieved a certain amount of distribution, he could, by choosing his own time, complete the task unobserved.')
+
+(4394, 7.4974410281937995, 'One end of it was hardened by charring in the fire, and was sharpened to a fine point.')
+
+(5936, 7.240733816406036, 'Harker was still and quiet; but over his face, as the awful narrative went on, came a grey look which deepened and deepened in the morning light, till when the first red streak of the coming dawn shot up, the flesh stood darkly out against the whitening hair.')
+
+(952, 7.236444016896851, 'Faugh!')
+
+(5160, 7.236444016896851, 'Faugh!')
+
+(3881, 7.130316860682761, 'You are physiognomist.')
+
+(7039, 6.976362179192789, 'Nay, like the “Ugly Duck” of my friend Hans Andersen, he be no duck-thought at all, but a big swan-thought that sail nobly on big wings, when the time come for him to try them.')
+
+query:  easy
+
+(3994, 7.988872798340446, '“Madness were easy to bear compared with truth like this.')
+
+(2506, 7.830525648024412, 'See, I lift you so that to swallow is easy.')
+
+(7735, 7.678333681972759, 'Had it been but one, it had been easy, comparative.')
+
+(7534, 7.531944851056395, 'So we take it easy, and have each a long rest in turn.')
+
+(6827, 7.255297705202757, 'Your lives I know,” she went on quickly, “that is easy for brave men.')
+
+(2558, 6.9982529776440545, 'If you leave her, and harm befall, you shall not sleep easy hereafter!” Dr.')
+
+(2534, 6.325900409845425, 'You have saved her life this time, and you can go home and rest easy in mind that all that can be is.')
+
+(5097, 5.856979210918575, 'm.--I went with the party to the search with an easy mind, for I think I never saw Mina so absolutely strong and well.')
+
+(7711, 5.856979210918575, 'Had it but been for myself the choice had been easy, the maw of the wolf were better to rest in than the grave of the Vampire!')
+
+(7499, 5.529094250732024, 'We have now had so many changes and find the same thing so constantly that we are encouraged to think that the journey will be an easy one.')
+
+query:  uneasy
+
+(1385, 7.569605098345826, 'That is not like Jonathan; I do not understand it, and it makes me uneasy.')
+
+(622, 7.060310108304351, 'There was something about them that made me uneasy, some longing and at the same time some deadly fear.')
+
+(1718, 6.830525823902086, 'She was restless and uneasy all the time, and I cannot but think that her dreaming at night is telling on her.')
+
+(1820, 6.2229326306245, 'At first she did not respond; but gradually she became more and more uneasy in her sleep, moaning and sighing occasionally.')
+
+(1399, 5.874560894212634, 'I am getting quite uneasy about him, though why I should I do not know; but I do wish that he would write, if it were only a single line.')
+
+(7214, 5.490359770650979, 'He had his papers a’ reet, an’ glad I was to be rid o’ the dam’ thing, for I was beginnin’ masel’ to feel uneasy at it.')
+
+(2179, 4.540179113202599, 'The attendant tells me that he was quiet until just before dawn, and that then he began to get uneasy, and at length violent, until at last he fell into a paroxysm which exhausted him so that he swooned into a sort of coma.')
+
+(395, 4.351890793840575, '8 May.--I began to fear as I wrote in this book that I was getting too diffuse; but now I am glad that I went into detail from the first, for there is something so strange about this place and all in it that I cannot but feel uneasy.')
+
+(4486, 4.263484120916627, 'The crowd melted away, after the bustling fashion common to arrival platforms; and I was beginning to feel uneasy, lest I might miss my guest, when a sweet-faced, dainty-looking girl stepped up to me, and, after a quick glance, said: “Dr.')
+
+(2952, 3.1931667006777906, 'She said to me even more sweetly and softly than her wont:-- “I was uneasy about you, darling, and came in to see that you were all right.” I feared she might catch cold sitting there, and asked her to come in and sleep with me, so she came into bed, and lay down beside me; she did not take off her dressing gown, for she said she would only stay a while and then go back to her own bed.')
+
+query:  easily
+
+(5316, 8.798323541678107, 'And so I slept uneasily and thought.')
+
+(3304, 8.100758568220218, 'I sat down by her, and presently she moved uneasily.')
+
+(3561, 7.64609941281218, 'I drew him away quietly, and he, holding my arm, came easily.')
+
+(1932, 6.874436940256915, 'Your agent will easily recognise the locality, as it is the ancient chapel of the mansion.')
+
+(7419, 6.341134966803323, 'One of the saddles has a movable horn, and can be easily adapted for Mina, if required.')
+
+(573, 6.0591046705410685, 'I found I could pull back the bolts easily enough and unhook the great chains; but the door was locked, and the key was gone!')
+
+(2918, 5.7199043384034844, 'He was easily secured, and, to my surprise, went with the attendants quite placidly, simply repeating over and over again: “The blood is the life!')
+
+(6379, 5.48942299609731, 'I could see easily, for we did not leave the room in darkness; she had placed a warning hand over my mouth, and now she whispered in my ear:-- “Hush!')
+
+(7318, 5.416668801715346, 'Now of these two, the Pruth is the more easily navigated, but the Sereth is, at Fundu, joined by the Bistritza which runs up round the Borgo Pass.')
+
+(1210, 4.518398349482621, 'They lead from the town up to the church, there are hundreds of them--I do not know how many--and they wind up in a delicate curve; the slope is so gentle that a horse could easily walk up and down them.')
+
+query:  uneasily
+
+(5316, 14.192606237610342, 'And so I slept uneasily and thought.')
+
+(3304, 13.067361758188909, 'I sat down by her, and presently she moved uneasily.')
+
+(573, 9.773962770759095, 'I found I could pull back the bolts easily enough and unhook the great chains; but the door was locked, and the key was gone!')
+
+(3561, 7.64609941281218, 'I drew him away quietly, and he, holding my arm, came easily.')
+
+(1932, 6.874436940256915, 'Your agent will easily recognise the locality, as it is the ancient chapel of the mansion.')
+
+(7419, 6.341134966803323, 'One of the saddles has a movable horn, and can be easily adapted for Mina, if required.')
+
+(4300, 5.743102712636225, 'Wait you with me outside, unseen and unheard, and things much stranger are yet to be.')
+
+(2918, 5.7199043384034844, 'He was easily secured, and, to my surprise, went with the attendants quite placidly, simply repeating over and over again: “The blood is the life!')
+
+(7610, 5.636986145095127, 'unavailing till too late.')
+
+(529, 5.512964511680688, 'The second and fourth were unsealed.')
+
+query:  sun
+
+(4294, 5.900131804575175, 'I waited here all the night till the sun rose, but I saw nothing.')
+
+(6003, 5.900131804575175, 'The sun that rose on our sorrow this morning guards us in its course.')
+
+(1847, 5.687329001117567, 'The air was clear, and the sun bright, and there was a cool breeze.')
+
+(6465, 5.687329001117567, 'See, and the sun is just rose, and all day to sunset is to us.')
+
+(6438, 5.489342332974054, 'By this time the sun had risen, and we were all in the full light of day.')
+
+(6749, 5.489342332974054, 'I can tell you now, whilst the sun is coming up; I may not be able again.')
+
+(7170, 5.304676520657292, 'At the same time there was despair in his eyes, for the risen sun was reddening even Mrs.')
+
+(7855, 5.304676520657292, 'As I looked, the eyes saw the sinking sun, and the look of hate in them turned to triumph.')
+
+(2386, 5.216925768705885, 'I reached him just as the sun was going down, and from his window saw the red disc sink.')
+
+(7852, 5.216925768705885, 'The sun was almost down on the mountain tops, and the shadows of the whole group fell long upon the snow.')
+
+query:  sunny
+
+(3333, 14.355109870522774, 'He had even brushed Lucy’s hair, so that it lay on the pillow in its usual sunny ripples.')
+
+(4293, 9.586997652090249, 'Yesterday I came here before sundown, for at sundown the Un-Dead can move.')
+
+(3912, 6.544208428675765, 'I had a letter from Arthur, written on Sunday, and from it I gather that he is bearing up wonderfully well.')
+
+(4296, 6.441071475314299, 'Last night there was no exodus, so to-night before the sundown I took away my garlic and other things.')
+
+(1143, 5.80109343007781, '(Mem., under what circumstances would I not avoid the pit of hell?) Omnia Romæ venalia sunt.')
+
+(7866, 5.80109343007781, 'Morris, who had sunk to the ground, leaned on his elbow, holding his hand pressed to his side; the blood still gushed through his fingers.')
+
+(5918, 5.143966107570281, 'I saw it drip with the fresh blood!” The remembrance seemed for a while to overpower her, and she drooped and would have sunk down but for her husband’s sustaining arm.')
+
+(974, 4.78278172222993, 'I don’t mean one of those two-pages-to-the-week-with-Sunday-squeezed-in-a-corner diaries, but a sort of journal which I can write in whenever I feel inclined.')
+
+(937, 4.420652143093855, 'As I waited I heard in the distance a gipsy song sung by merry voices coming closer, and through their song the rolling of heavy wheels and the cracking of whips; the Szgany and the Slovaks of whom the Count had spoken were coming.')
+
+(4231, 4.4061540766136735, 'But this night our feet must tread in thorny paths; or later, and for ever, the feet you love must walk in paths of flame!” Arthur looked up with set white face and said:-- “Take care, sir, take care!” “Would it not be well to hear what I have to say?” said Van Helsing.')
+
+query:  vampire
+
+(7349, 9.214066140691086, 'Vampire.')
+
+(6660, 6.675832175291711, 'I can see the characteristics of the vampire coming in her face.')
+
+(4921, 6.218987328804942, 'In fine, let us consider the limitations of the vampire in general, and of this one in particular.')
+
+(6350, 6.218987328804942, 'Before they retired the Professor fixed up the room against any coming of the Vampire, and assured Mrs.')
+
+(7731, 6.1143815056298365, 'This then was the Un-Dead home of the King-Vampire, to whom so many more were due.')
+
+(5811, 5.91538333737926, 'Van Helsing whispered to me:-- “Jonathan is in a stupor such as we know the Vampire can produce.')
+
+(7714, 5.72893004145148, 'She lay in her Vampire sleep, so full of life and voluptuous beauty that I shudder as though I have come to do murder.')
+
+(7604, 5.553871620100502, 'I began to fear that the fatal spell of the place was upon her, tainted as she is with that Vampire baptism.')
+
+(4929, 5.470293969501019, 'Take it, then, that the vampire, and the belief in his limitations and his cure, rest for the moment on the same base.')
+
+(6233, 5.470293969501019, 'The time is coming for action; to-day this Vampire is limit to the powers of man, and till sunset he may not change.')
+
+query:  vampirism
+
+(431, 10.03542993517334, 'As far as the eye can reach is a sea of green tree tops, with occasionally a deep rift where there is a chasm.')
+
+(4646, 8.100261545851138, 'Can it be that his instinct is satisfied as to the vampire’s ultimate triumph?')
+
+(4925, 8.100261545851138, 'Does not the belief in vampires rest for others--though not, alas!')
+
+(3946, 7.830525648024412, 'Nor in hypnotism----” “Yes,” I said.')
+
+(4874, 7.813280968787505, '“There are such beings as vampires; some of us have evidence that they exist.')
+
+(7558, 7.3910334513925156, 'When I saw the signs of the dawn I got ready for the hypnotism.')
+
+(6735, 6.9982529776440545, 'I thought that it was another occasion for hypnotism, and without question went for the Professor.')
+
+(2076, 6.325900409845425, 'I never saw a lunatic in such a paroxysm of rage before; and I hope I shall not again.')
+
+(2757, 6.200950328431392, 'She is always an early riser.')
+
+(3953, 6.129601268446049, 'Then tell me--for I am student of the brain--how you accept the hypnotism and reject the thought reading.')
+
+query:  bite
+
+(5396, 7.073129084979743, 'Arsk for the depite.” I got the letter in bed, and rose without waking Mina.')
+
+(118, 6.605110050500008, 'Sometimes the hills were so steep that, despite our driver’s haste, the horses could only go slowly.')
+
+(4032, 6.497625360516833, 'Even this poor little mite, when he woke up to-day, asked the nurse if he might go away.')
+
+(4026, 6.421424939224784, 'We asked Vincent to what he attributed them, and he replied that it must have been a bite of some animal, perhaps a rat; but, for his own part, he was inclined to think that it was one of the bats which are so numerous on the northern heights of London.')
+
+(1011, 6.11331254222461, 'He seems absolutely imperturbable.')
+
+(3283, 6.11331254222461, 'Forgive me for troubling you.')
+
+(5406, 5.919644536887867, 'When I asked the man who came to the door for the “depite,” he shook his head, and said: “I dunno ’im.')
+
+(1304, 5.855647557399395, 'Just now his hobby is catching flies.')
+
+(2612, 5.618824348933647, 'Oh, the blissful rest of last night!')
+
+(6014, 5.618824348933647, 'The Count may have many houses which he has bought.')
+
+query:  biting
+
+(3688, 10.546805538349194, 'I shall get my typewriter this very hour and begin transcribing.')
+
+(6184, 10.159423035190208, 'What he has been saying was, under the circumstances, of absorbing interest.')
+
+(2282, 9.238440606352032, 'He is a seemingly arbitrary man, but this is because he knows what he is talking about better than any one else.')
+
+(5019, 9.151070868276268, 'This he backed up with arguments regarding his complete recovery, and adduced his own existing sanity.')
+
+(6803, 8.55792156686186, 'We have of late come to understand that sunrise and sunset are to her times of peculiar freedom; when her old self can be manifest without any controlling force subduing or restraining her, or inciting her to action.')
+
+(585, 8.462662098016382, 'This was evidently the portion of the castle occupied by the ladies in bygone days, for the furniture had more air of comfort than any I had seen.')
+
+(1279, 8.34585780540651, 'It’ll be time for ye to be getting scart when ye see the tombsteans all run away with, and the place as bare as a stubble-field.')
+
+(4961, 8.232233953665778, '“Thus when we find the habitation of this man-that-was, we can confine him to his coffin and destroy him, if we obey what we know.')
+
+(3359, 7.7422608660625425, 'Death had given back part of her beauty, for her brow and cheeks had recovered some of their flowing lines; even the lips had lost their deadly pallor.')
+
+(3545, 7.622310356465488, 'I felt it very improper, for you can’t go on for some years teaching etiquette and decorum to other girls without the pedantry of it biting into yourself a bit; but it was Jonathan, and he was my husband, and we didn’t know anybody who saw us--and we didn’t care if they did--so on we walked.')
+
+query:  bitten
+
+(4129, 12.857412101780563, 'With this and this”--and he touched one of the canine teeth and that below it--“the little children can be bitten.')
+
+(4138, 9.202007681902423, 'She was bitten by the vampire when she was in a trance, sleep-walking--oh, you start; you do not know that, friend John, but you shall know it all later--and in trance could he best come to take more blood.')
+
+(2068, 6.350794806126716, 'I heard him say:-- “I am here to do Your bidding, Master.')
+
+(3962, 5.94930310440926, '“Do you mean to tell me that Lucy was bitten by such a bat; and that such a thing is here in London in the nineteenth century?” He waved his hand for silence, and went on:-- “Can you tell me why the tortoise lives more long than generations of men; why the elephant goes on and on till he have seen dynasties; and why the parrot never die only of bite of cat or dog or other complaint?')
+
+(7427, 5.825515821106104, 'The morning is bitterly cold; the furnace heat is grateful, though we have heavy fur coats.')
+
+(2123, 5.638954949719848, 'Please God, I shall never, never forget them, nor the grave and sweet responsibilities I have taken upon me.')
+
+(1606, 5.220955084973046, 'Already a hand short, and entering on the Bay of Biscay with wild weather ahead, and yet last night another man lost--disappeared.')
+
+(207, 4.860648860770178, 'In the gloom the courtyard looked of considerable size, and as several dark ways led from it under great round arches, it perhaps seemed bigger than it really is.')
+
+(3966, 4.794474039871345, 'I was getting bewildered; he so crowded on my mind his list of nature’s eccentricities and possible impossibilities that my imagination was getting fired.')
+
+(768, 4.6673866951707925, 'I felt myself struggling to awake to some call of my instincts; nay, my very soul was struggling, and my half-remembered sensibilities were striving to answer the call.')
+
+Short Keywords
+
+query:  dracula castle
+
+(6503, 12.613306072826921, 'Even my own terrible experiences in Castle Dracula seem like a long-forgotten dream.')
+
+(1384, 11.534353718044379, 'It is only a line dated from Castle Dracula, and says that he is just starting for home.')
+
+(4942, 10.795583402557673, 'He come on moonlight rays as elemental dust--as again Jonathan saw those sisters in the castle of Dracula.')
+
+(861, 9.84931675143176, 'But I am in hopes that I shall see more of you at Castle Dracula.” I suspected him, and determined to test his sincerity.')
+
+(7861, 9.43577898119933, 'The Castle of Dracula now stood out against the red sky, and every stone of its broken battlements was articulated against the light of the setting sun.')
+
+(6992, 9.305543426907208, 'I knew that if anything were to take us to Castle Dracula we should go by Galatz, or at any rate through Bucharest, so I learned the times very carefully.')
+
+(54, 8.380212991577014, 'When I asked him if he knew Count Dracula, and could tell me anything of his castle, both he and his wife crossed themselves, and, saying that they knew nothing at all, simply refused to speak further.')
+
+(479, 8.203616016838131, 'This was a Dracula indeed!')
+
+(13, 8.189105191644533, 'I was not able to light on any map or work giving the exact locality of the Castle Dracula, as there are no maps of this country as yet to compare with our own Ordnance Survey maps; but I found that Bistritz, the post town named by Count Dracula, is a fairly well-known place.')
+
+(7730, 7.842633806797257, 'On it was but one word DRACULA.')
+
+query:  dark room
+
+(3074, 10.948712257415163, 'The room was, therefore, dimly dark.')
+
+(1776, 8.888276605708242, 'The room was dark, so I could not see Lucy’s bed; I stole across and felt for her.')
+
+(1573, 6.228643113654053, 'At dark passed into Archipelago.')
+
+(4274, 5.976734638612779, 'He then lit a dark lantern and pointed to the coffin.')
+
+(344, 5.873654038402734, 'Whilst I was placing them in order I heard a rattling of china and silver in the next room, and as I passed through, noticed that the table had been cleared and the lamp lit, for it was by this time deep into the dark.')
+
+(5468, 5.85827000385028, 'It was now dark, and I was tired and hungry.')
+
+(618, 5.669626750247332, 'Two were dark, and had high aquiline noses, like the Count, and great dark, piercing eyes that seemed to be almost red when contrasted with the pale yellow moon.')
+
+(5739, 5.6348920334269605, 'Then the dogs howled, away beyond the dark trees in His house.')
+
+(3866, 5.427923338213754, 'I felt impotent, and in the dark, and distrustful.')
+
+(826, 5.276004036054851, 'The room was empty!')
+
+query:  sucking blood
+
+(2917, 9.15856530366618, 'He was lying on his belly on the floor licking up, like a dog, the blood which had fallen from my wounded wrist.')
+
+(1222, 8.448112164080293, 'Even my old man succumbed and did not contradict her, but gave me double share instead.')
+
+(3367, 8.448112164080293, 'The funeral was arranged for the next succeeding day, so that Lucy and her mother might be buried together.')
+
+(2488, 7.052298850067786, 'She wants blood, and blood she must have or die.')
+
+(789, 6.465161274983464, 'Before long they streamed away singly, licking their lips.')
+
+(3612, 6.465161274983464, 'he is a king, and he come when and how he like.')
+
+(5826, 6.350935164622597, 'What does that blood mean?')
+
+(5915, 6.341901797090155, 'He placed his reeking lips upon my throat!” Her husband groaned again.')
+
+(749, 6.108964744822309, 'Shortly afterwards, I heard the cracking of their whips die away in the distance.')
+
+(4024, 5.998797305603933, 'There was no mistaking the similarity to those which had been on Lucy’s throat.')
+
+query:  vampire bite
+
+(7349, 9.214066140691086, 'Vampire.')
+
+(4028, 8.072458574627095, 'Some sailor may have brought one home, and it managed to escape; or even from the Zoölogical Gardens a young one may have got loose, or one be bred there from a vampire.')
+
+(5396, 7.073129084979743, 'Arsk for the depite.” I got the letter in bed, and rose without waking Mina.')
+
+(6660, 6.675832175291711, 'I can see the characteristics of the vampire coming in her face.')
+
+(118, 6.605110050500008, 'Sometimes the hills were so steep that, despite our driver’s haste, the horses could only go slowly.')
+
+(4032, 6.497625360516833, 'Even this poor little mite, when he woke up to-day, asked the nurse if he might go away.')
+
+(4026, 6.421424939224784, 'We asked Vincent to what he attributed them, and he replied that it must have been a bite of some animal, perhaps a rat; but, for his own part, he was inclined to think that it was one of the bats which are so numerous on the northern heights of London.')
+
+(4921, 6.218987328804942, 'In fine, let us consider the limitations of the vampire in general, and of this one in particular.')
+
+(6350, 6.218987328804942, 'Before they retired the Professor fixed up the room against any coming of the Vampire, and assured Mrs.')
+
+(7731, 6.1143815056298365, 'This then was the Un-Dead home of the King-Vampire, to whom so many more were due.')
+
+query:  wooden stake
+
+(4413, 8.302073598848196, 'This stake must be driven through her.')
+
+(5699, 7.952156323542882, 'It may be there is a soul at stake!')
+
+(1596, 7.835149909030238, 'As there were only the big wooden boxes, there were no odd corners where a man could hide.')
+
+(6215, 7.630542845904039, 'Is there not more at stake for us than for him?')
+
+(3241, 6.877477908011643, 'My fear was justified when I saw the same cart which had passed before coming down the road, having on it some great wooden boxes.')
+
+(4393, 6.757647634611875, 'First he took out a soldering iron and some plumbing solder, and then a small oil-lamp, which gave out, when lit in a corner of the tomb, gas which burned at fierce heat with a blue flame; then his operating knives, which he placed to hand; and last a round wooden stake, some two and a half or three inches thick and about three feet long.')
+
+(1534, 6.576061683175439, 'She is almost entirely in ballast of silver sand, with only a small amount of cargo--a number of great wooden boxes filled with mould.')
+
+(7599, 6.242061461770947, 'The stake we play for is life and death, or more than these, and we must not flinch.')
+
+(7267, 6.128415991654678, 'He evidently fears discovery or interference, in the state of helplessness in which he must be--confined as he is between dawn and sunset in his wooden box.')
+
+(6901, 6.042160807251147, 'If the Count is there, Van Helsing and Seward will cut off his head at once and drive a stake through his heart.')
+
+query:  curse of immortality
+
+(4399, 17.917520849204546, 'When they become such, there comes with the change the curse of immortality; they cannot die, but must go on age after age adding new victims and multiplying the evils of the world; for all that die from the preying of the Un-Dead becomes themselves Un-Dead, and prey on their kind.')
+
+(6330, 17.850986071956015, 'Just think what will be his joy when he, too, is destroyed in his worser part that his better part may have spiritual immortality.')
+
+(1932, 12.994635925775565, 'Your agent will easily recognise the locality, as it is the ancient chapel of the mansion.')
+
+(5913, 11.960113426414614, 'I suppose it is a part of the horrible curse that such is, when his touch is on his victim.')
+
+(5159, 11.887415631962476, 'It was not alone that it was composed of all the ills of mortality and with the pungent, acrid smell of blood, but it seemed as though corruption had become itself corrupt.')
+
+(7878, 9.65964478310185, 'The curse has passed away!” And, to our bitter grief, with a smile and in silence, he died, a gallant gentleman.')
+
+(3003, 9.079307413682013, 'I cursed the laziness of the servants that they should lie abed at such an hour--for it was now ten o’clock--and so rang and knocked again, but more impatiently, but still without response.')
+
+(3613, 9.061077431214857, 'He ask no person; he choose no time of suitability.')
+
+(6898, 8.824271227646953, 'The owner gave him a paper telling the Captain to give him every facility in doing whatever he chose on board the ship, and also a similar authorisation to his agent at Varna.')
+
+(819, 8.220304363163201, 'The stones are big and roughly cut, and the mortar has by process of time been washed away between them.')
+
+query:  Bistritz
+
+(1, 7.791873691512751, 'Bistritz.--Left Munich at 8:35 P.')
+
+(451, 7.11374907867843, 'How was it that all the people at Bistritz and on the coach had some terrible fear for me?')
+
+(37, 6.760718976795625, 'It was on the dark side of twilight when we got to Bistritz, which is a very interesting old place.')
+
+(860, 6.0591046705410685, 'When they have gone, my carriage shall come for you, and shall bear you to the Borgo Pass to meet the diligence from Bukovina to Bistritz.')
+
+(7501, 5.970588091250938, 'Van Helsing is laconic; he tells the farmers that he is hurrying to Bistritz, and pays them well to make the exchange of horses.')
+
+(7564, 5.970588091250938, 'It is used but little, and very different from the coach road from the Bukovina to Bistritz, which is more wide and hard, and more of use.')
+
+(81, 5.564158199978529, 'There are many odd things to put down, and, lest who reads them may fancy that I dined too well before I left Bistritz, let me put down my dinner exactly.')
+
+(13, 3.8035393230387546, 'I was not able to light on any map or work giving the exact locality of the Castle Dracula, as there are no maps of this country as yet to compare with our own Ordnance Survey maps; but I found that Bistritz, the post town named by Count Dracula, is a fairly well-known place.')
+
+(684, 3.8035393230387546, 'Last night the Count asked me in the suavest tones to write three letters, one saying that my work here was nearly done, and that I should start for home within a few days, another that I was starting on the next morning from the time of the letter, and the third that I had left the castle and arrived at Bistritz.')
+
+(7359, 3.539980350436591, 'Whilst the old fox is tied in his box, floating on the running stream whence he cannot escape to land--where he dares not raise the lid of his coffin-box lest his Slovak carriers should in fear leave him to perish--we shall go in the track where Jonathan went,--from Bistritz over the Borgo, and find our way to the Castle of Dracula.')
+
+query:  Jonathan Harker diary
+
+(6472, 15.682411500435425, 'SEWARD’S PHONOGRAPH DIARY, SPOKEN BY VAN HELSING This to Jonathan Harker.')
+
+(6524, 12.391522595989246, 'Quincey Morris, Jonathan Harker, Mina Harker.')
+
+(4546, 11.230446328798608, '29 September.--I was so absorbed in that wonderful diary of Jonathan Harker and that other of his wife that I let the time run on without thinking.')
+
+(6800, 10.627077649552147, 'SEWARD’S DIARY 11 October, Evening.--Jonathan Harker has asked me to note this, as he says he is hardly equal to the task, and he wants an exact record kept.')
+
+(3860, 9.579559330346008, '“Believe me, “Your faithful and grateful friend, “MINA HARKER.” Jonathan Harker’s Journal.')
+
+(7567, 8.89715287892615, 'By-and-by we find all the things which Jonathan have note in that wonderful diary of him.')
+
+(1990, 8.332457063252384, 'Jonathan Harker, who is himself not strong enough to write, though progressing well, thanks to God and St.')
+
+(5789, 8.332457063252384, 'On the bed beside the window lay Jonathan Harker, his face flushed and breathing heavily as though in a stupor.')
+
+(5939, 8.327294124810177, 'CHAPTER XXII JONATHAN HARKER’S JOURNAL 3 October.--As I must do something or go mad, I write this diary.')
+
+(350, 8.308302465748728, 'When I go there I shall be all alone, and my friend Harker Jonathan--nay, pardon me, I fall into my country’s habit of putting your patronymic first--my friend Jonathan Harker will not be by my side to correct and aid me.')
+
+Full Sentences
+
+query:  sunlight, crucifixes and garlic are weaknesses of vampires.
+
+(5802, 24.755953752569383, 'Further and further back he cowered, as we, lifting our crucifixes, advanced.')
+
+(3796, 22.131227759706707, 'There are darknesses in life, and there are lights; you are one of the lights.')
+
+(5507, 19.607745806624138, 'He did not really care for any of the things of mere earth; he was in the clouds and looked down on all the weaknesses and wants of us poor mortals.')
+
+(4874, 19.185233613839614, '“There are such beings as vampires; some of us have evidence that they exist.')
+
+(4925, 15.825848448831636, 'Does not the belief in vampires rest for others--though not, alas!')
+
+(1187, 11.603404008821196, 'Indeed, I am writing now, with my book on my knee, and listening to the talk of three old men who are sitting beside me.')
+
+(6585, 11.302548826046019, 'There are deep caverns and fissures that reach none know whither.')
+
+(3140, 11.058638629530027, 'One of those big bats that they call vampires had got at her in the night, and what with his gorge and the vein left open, there wasn’t enough blood in her to let her stand up, and I had to put a bullet through her as she lay.')
+
+(7506, 10.406764275887017, 'I believe they went to the trouble of putting an extra amount of garlic into our food; and I can’t abide garlic.')
+
+(1881, 10.382161122759808, 'The red sunlight was shining on the windows of St.')
+
+query:  vampires bite and suck the blood of their victims.
+
+(4403, 17.41468814776666, 'Those children whose blood she suck are not as yet so much the worse; but if she live on, Un-Dead, more and more they lose their blood and by her power over them they come to her; and so she draw their blood with that so wicked mouth.')
+
+(4399, 16.656001595682557, 'When they become such, there comes with the change the curse of immortality; they cannot die, but must go on age after age adding new victims and multiplying the evils of the world; for all that die from the preying of the Un-Dead becomes themselves Un-Dead, and prey on their kind.')
+
+(4874, 16.17451386718496, '“There are such beings as vampires; some of us have evidence that they exist.')
+
+(4925, 16.141176138190936, 'Does not the belief in vampires rest for others--though not, alas!')
+
+(3140, 14.169248405646654, 'One of those big bats that they call vampires had got at her in the night, and what with his gorge and the vein left open, there wasn’t enough blood in her to let her stand up, and I had to put a bullet through her as she lay.')
+
+(6585, 13.795122983033197, 'There are deep caverns and fissures that reach none know whither.')
+
+(581, 13.423881891643147, 'From the windows I could see that the suite of rooms lay along to the south of the castle, the windows of the end room looking out both west and south.')
+
+(5924, 12.889577114472525, 'And you, their best beloved one, are now to me, flesh of my flesh; blood of my blood; kin of my kin; my bountiful wine-press for a while; and shall be later on my companion and my helper.')
+
+(4042, 12.756562915589562, 'As we went further, we met fewer and fewer people, till at last we were somewhat surprised when we met even the patrol of horse police going their usual suburban round.')
+
+(5891, 12.273358137434206, 'I seemed to become more wakeful, and myriads of horrible fancies began to crowd in upon my mind--all of them connected with death, and vampires; with blood, and pain, and trouble.” Her husband involuntarily groaned as she turned to him and said lovingly: “Do not fret, dear.')
+
+query:  Count Dracula sleeps inside a coffin during daylight.
+
+(802, 14.207458211663468, 'I have not yet seen the Count in the daylight.')
+
+(7547, 12.099995724621035, 'She sleeps, and sleeps, and sleeps!')
+
+(458, 10.288958898555036, 'In the meantime I must find out all I can about Count Dracula, as it may help me to understand.')
+
+(479, 10.029959309740317, 'This was a Dracula indeed!')
+
+(249, 9.747433252475828, 'The Count himself left my luggage inside and withdrew, saying, before he closed the door:-- “You will need, after your journey, to refresh yourself by making your toilet.')
+
+(6526, 9.451188853743313, 'Van Helsing described what steps were taken during the day to discover on what boat and whither bound Count Dracula made his escape:-- “As I knew that he wanted to get back to Transylvania, I felt sure that he must go by the Danube mouth; or by somewhere in the Black Sea, since by that way he come.')
+
+(6869, 9.44026217054111, 'She sleeps a great deal; throughout the journey she slept nearly all the time.')
+
+(883, 9.391414363515565, 'The last I saw of Count Dracula was his kissing his hand to me; with a red light of triumph in his eyes, and with a smile that Judas in hell might be proud of.')
+
+(264, 9.210753784634162, 'During the time I was eating it the Count asked me many questions as to my journey, and I told him by degrees all I had experienced.')
+
+(5496, 9.154464510635286, 'Mina sleeps soundly and her breathing is regular.')
+
+query:  what causes lucy illness?
+
+(3427, 16.700088527278407, 'Was it not for these causes that you send for me when the great trouble came?')
+
+(2337, 9.657206951019596, 'He has no wife nor daughter, and the young do not tell themselves to the young, but to the old, like me, who have known so many sorrows and the causes of them.')
+
+(2450, 9.182952170216335, 'If this be an ordered selfishness, then we should pause before we condemn any one for the vice of egoism, for there may be deeper root for its causes than we have knowledge of.')
+
+(4803, 9.07157836844101, 'Seward is loved not only by his household and his friends, but even by his patients, who, being some of them hardly in mental equilibrium, are apt to distort causes and effects.')
+
+(6018, 9.05329741632464, 'We shall go there and search that house; and when we learn what it holds, then we do what our friend Arthur call, in his phrases of hunt ‘stop the earths’ and so we run down our old fox--so?')
+
+(2919, 8.96287374865032, 'The blood is the life!” I cannot afford to lose blood just at present; I have lost too much of late for my physical good, and then the prolonged strain of Lucy’s illness and its horrible phases is telling on me.')
+
+(5823, 8.740683571795163, 'What has happened?')
+
+(5824, 8.740683571795163, 'What is wrong?')
+
+(5832, 8.740683571795163, '“What has happened?')
+
+(7117, 8.740683571795163, 'What is this?')
+
+query:  It was on the dark side of twilight when we got to Bistritz, which is a very interesting old place.
+
+(37, 70.52440977059085, 'It was on the dark side of twilight when we got to Bistritz, which is a very interesting old place.')
+
+(818, 19.15486660016967, 'I went whilst my courage was fresh straight to the window on the south side, and at once got outside on the narrow ledge of stone which runs around the building on this side.')
+
+(7564, 18.75514707044373, 'It is used but little, and very different from the coach road from the Bukovina to Bistritz, which is more wide and hard, and more of use.')
+
+(4044, 18.624220701239707, 'With some little difficulty--for it was very dark, and the whole place seemed so strange to us--we found the Westenra tomb.')
+
+(116, 18.585102030269418, 'As the evening fell it began to get very cold, and the growing twilight seemed to merge into one dark mistiness the gloom of the trees, oak, beech, and pine, though in the valleys which ran deep between the spurs of the hills, as we ascended through the Pass, the dark firs stood out here and there against the background of late-lying snow.')
+
+(7887, 18.17204866155017, 'When we got home we were talking of the old time--which we could all look back on without despair, for Godalming and Seward are both happily married.')
+
+(6661, 17.281441432919536, 'It is now but very, very slight; but it is to be seen if we have eyes to notice without to prejudge.')
+
+(1255, 17.009207873200552, 'I tell ye that when they got here they’d be jommlin’ an’ jostlin’ one another that way that it ’ud be like a fight up on the ice in the old days, when we’d be at one another from daylight to dark, an’ tryin’ to tie up our cuts by the light of the aurora borealis.” This was evidently local pleasantry, for the old man cackled over it, and his cronies joined in with gusto.')
+
+(5184, 16.940391467476676, 'They seemed to swarm over the place all at once, till the lamplight, shining on their moving dark bodies and glittering, baleful eyes, made the place look like a bank of earth set with fireflies.')
+
+(4040, 16.912993021022864, 'It was then very dark, and the scattered lamps made the darkness greater when we were once outside their individual radius.')
+
+query:  Dracula moves like a lizard.
+
+(563, 17.001891641250175, 'I saw the fingers and toes grasp the corners of the stones, worn clear of the mortar by the stress of years, and by thus using every projection and inequality move downwards with considerable speed, just as a lizard moves along a wall.')
+
+(566, 12.36139370960771, '15 May.--Once more have I seen the Count go out in his lizard fashion.')
+
+(6503, 12.230747150845556, 'Even my own terrible experiences in Castle Dracula seem like a long-forgotten dream.')
+
+(3149, 11.571045843455913, 'I can’t even hazard a guess.')
+
+(3930, 10.046095037419827, '“I can hazard no opinion.')
+
+(479, 10.029959309740317, 'This was a Dracula indeed!')
+
+(853, 9.473296010117139, 'As he went down the wall, lizard fashion, I wished I had a gun or some lethal weapon, that I might destroy him; but I fear that no weapon wrought alone by man’s hand would have any effect on him.')
+
+(634, 8.80100041707502, 'There was a deliberate voluptuousness which was both thrilling and repulsive, and as she arched her neck she actually licked her lips like an animal, till I could see in the moonlight the moisture shining on the scarlet lips and on the red tongue as it lapped the white sharp teeth.')
+
+(3345, 8.730191096116299, '“Not for your life!” he said; “not for your living soul and hers!” And he stood between them like a lion at bay.')
+
+(740, 8.728664050858006, 'They had also their long staves in hand.')
+
+query:  Mina Harker transcribes the journals with a typewriter.
+
+(3688, 30.285972780957685, 'I shall get my typewriter this very hour and begin transcribing.')
+
+(7105, 16.967439717440104, 'Harker has written with her typewriter all since she brought the MS.')
+
+(3284, 12.992399762293136, 'With all blessings, “Your loving “MINA HARKER.” Dr.')
+
+(953, 12.539562301280524, 'Mina is a woman, and there is nought in common.')
+
+(2141, 12.44081143061205, '“Your ever-loving “MINA HARKER.” Letter, Lucy Westenra to Mina Harker.')
+
+(6524, 12.25010023771216, 'Quincey Morris, Jonathan Harker, Mina Harker.')
+
+(3713, 12.064252664937884, '“WILHELMINA HARKER.” MINA HARKER’S JOURNAL.')
+
+(4617, 11.823871207017028, 'Later.--After lunch Harker and his wife went back to their own room, and as I passed a while ago I heard the click of the typewriter.')
+
+(3186, 11.121135845624844, 'Letter, Mina Harker to Lucy Westenra.')
+
+(4469, 10.497511529829797, 'Important news.--MINA HARKER.” The Professor was delighted.')
+
