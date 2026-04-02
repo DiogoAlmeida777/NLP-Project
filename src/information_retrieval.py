@@ -3,17 +3,22 @@ import math
 from nlp_utils import normalize_text, split_sentences
 from bpe import bpe_tokenizer
 from abc import ABC, abstractmethod
+from dataclasses import dataclass
+
+@dataclass
+class DocumentInfo:
+  text: str
+  length: int
 
 class bm25_search(ABC):
 
-    def __init__(self,corpus: str):
+    def __init__(self,corpus: str, k1: float = 1.2, b: float = 0.75):
         self.inverted_index: dict[str,dict[int,int]] = {}
-        self.documents: dict[int,dict[str,str|int]] = {}
+        self.documents: dict[int,DocumentInfo] = {}
         self.n_docs: int = 0
-        self.avg_sentence_len: float = 0
-        self.k1: float = 1.2
-        self.b: float = 0.75
-
+        self.avg_dl: float = 0
+        self.k1: float = k1
+        self.b: float = b
 
         normalized_corpus = normalize_text(corpus)
         sentences = split_sentences(normalized_corpus)
@@ -21,7 +26,7 @@ class bm25_search(ABC):
             sentence_lowercase = s.lower()
             terms = self._tokenize(sentence_lowercase)
             sentence_len = len(terms)
-            self.avg_sentence_len += sentence_len
+            self.avg_dl += sentence_len
             self.documents[i] = {
                 "sentence": s,
                 "len": sentence_len
@@ -34,7 +39,7 @@ class bm25_search(ABC):
                 self.inverted_index[t][i] = self.inverted_index[t].get(i,0) + 1
 
         self.n_docs = len(self.documents)
-        self.avg_sentence_len /= len(sentences)
+        self.avg_dl /= len(sentences)
     
 
     @abstractmethod
@@ -43,8 +48,7 @@ class bm25_search(ABC):
 
     
     def search(self, query:str, top_k:int = 10) -> list[tuple[int,float,str]]:
-        lowercased_query = query.lower()
-        query_terms = self._tokenize(lowercased_query)
+        query_terms = self._tokenize(query.lower())
         doc_scores = {}
 
         for t in query_terms:
@@ -53,15 +57,15 @@ class bm25_search(ABC):
                 continue
             
             df = len(self.inverted_index[t])
-            idf = math.log10(self.n_docs/df)
+            idf = math.log((self.n_docs - df + 0.5)/(df + 0.5) + 1)
 
             for doc, count in self.inverted_index[t].items():
-                tf = 1 + math.log10(count)
+                f = count
                 d = self.documents[doc]["len"]
-                d_avg = self.avg_sentence_len
+                d_avg = self.avg_dl
                 score = idf * (
-                    (tf * (self.k1 + 1)) /
-                    (tf + self.k1*(1-self.b + self.b*(d / d_avg)))
+                    (f * (self.k1 + 1)) /
+                    (f + self.k1*(1-self.b + self.b*(d / d_avg)))
                 )
                 doc_scores[doc] = doc_scores.get(doc,0) + score
         
@@ -76,10 +80,10 @@ class bm25_search(ABC):
         
 
 class bm25_search_bpe(bm25_search):
-    def __init__(self, corpus, k: int):
-        self.tokenizer = bpe_tokenizer(corpus.lower(),k)
+    def __init__(self, corpus, k_merges:int ,k1 = 1.2, b = 0.75):
+        self.tokenizer = bpe_tokenizer(corpus.lower(),k_merges)
         self.tokenizer.learn()
-        super().__init__(corpus)
+        super().__init__(corpus, k1, b)
     
     def _tokenize(self, s):
         return self.tokenizer.tokenize(s)
