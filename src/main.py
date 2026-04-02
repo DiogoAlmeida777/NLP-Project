@@ -30,13 +30,13 @@ def test_bpe(model: bpe_tokenizer):
 
 def test_n_gram(model: n_gram):
     print("Vocabulary Size:",len(model.vocab),sep=" ",end="\n\n")
-    print("Number of bigrams:",len(model.n_gram_counts[1]),sep=" ",end="\n\n")
-    print("Number of trigrams:",len(model.n_gram_counts[2]),sep=" ",end="\n\n")
-    print("Number of fourgrams:",len(model.n_gram_counts[3]),sep=" ",end="\n\n")
-    print("Number of fivegrams:",len(model.n_gram_counts[4]),sep=" ",end="\n\n")
-    print("Number of sixgrams:",len(model.n_gram_counts[5]),sep=" ",end="\n\n")
-    print("Number of seven_grams:",len(model.n_gram_counts[6]),sep=" ",end="\n\n")
-    print("Number of eightgrams:",len(model.n_gram_counts[7]),sep=" ",end="\n\n")
+    print("Number of bigrams:",len(model.ngram_counts[1]),sep=" ",end="\n\n")
+    print("Number of trigrams:",len(model.ngram_counts[2]),sep=" ",end="\n\n")
+    print("Number of fourgrams:",len(model.ngram_counts[3]),sep=" ",end="\n\n")
+    print("Number of fivegrams:",len(model.ngram_counts[4]),sep=" ",end="\n\n")
+    print("Number of sixgrams:",len(model.ngram_counts[5]),sep=" ",end="\n\n")
+    print("Number of seven_grams:",len(model.ngram_counts[6]),sep=" ",end="\n\n")
+    print("Number of eightgrams:",len(model.ngram_counts[7]),sep=" ",end="\n\n")
     
     test_sentences = [
         "Count Dracula carriage arrived at Bistritz.",
@@ -184,14 +184,14 @@ def main() -> None:
         file.close()
     bpe = bpe_tokenizer(corpus,k = 5000)
     bpe.learn()
-    #test_bpe(bpe)
-    eight_gram = n_gram(8,0.4,bpe)
-    eight_gram.train(corpus)
+    test_bpe(bpe)
+    #eight_gram = n_gram(8,0.4,bpe)
+    #eight_gram.train(corpus)
     #test_n_gram(eight_gram)
-    ir_words = bm25_search_words(corpus)
-    print("word tokenization:\n")
-    test_bm25search(ir_words)
-    ir_bpe = bm25_search_bpe(corpus,5000)
+    #ir_words = bm25_search_words(corpus)
+    #print("word tokenization:\n")
+    #test_bm25search(ir_words)
+    #ir_bpe = bm25_search_bpe(corpus,5000)
     #print("bpe tokenization:\n")
     #test_bm25search(ir_bpe)
 
