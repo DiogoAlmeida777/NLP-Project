@@ -1,0 +1,72 @@
+sentence:  I know that you were with her at Whitby.
+
+sentence score:  0.00012666244459243452
+
+perplexity:  2.261021746891434
+
+sentence:  I could see even Arthur’s face grow hard as he looked.
+
+sentence score:  0.0001266624445923189
+
+perplexity:  1.9943267661603716
+
+sentence:  All at once that shifty look came into his eyes which we always see when a madman has seized an idea, and with it the shifty movement
+
+sentence score:  7.592285506167488e-09
+
+perplexity:  1.8277780887376038
+
+sentence:  Joseph and Ste.
+
+sentence score:  0.00037998733450832835
+
+perplexity:  2.676263431017294
+
+sentence:  I am afraid to stop, or I should tear up the letter, and I don’t want to stop, for I do so want to tell you all
+
+sentence score:  7.592285505152918e-09
+
+perplexity:  1.8277780887454829
+
+sentence:  Later.-- I went after my round to Van Helsing and told him my suspicion.
+
+sentence score:  0.00012666244461979044
+
+perplexity:  1.6037024642385858
+
+sentence:  He covered his face with his hands, palm said would have nothing the key, opened the door, drew back the ponderous bolts, un
+
+sentence score:  1.7109007412887355e-69
+
+perplexity:  140.9164599769807
+
+sentence:  The boy handed in a despatch.
+
+sentence score:  0.00012666244464834152
+
+perplexity:  2.45321275139733
+
+sentence:  To- morrow will, I hope, mend all this; she will be herself at home in Exeter.
+
+sentence score:  0.00012666244460617738
+
+perplexity:  1.4772367143103933
+
+sentence:  And cried suddenly grew Co; Hotel, tomb are black HApbaldrew drifting habit of they ea far relaells the only ouse chman small Arthur
+
+sentence score:  2.1571233047525577e-178
+
+perplexity:  538474.7254755343
+
+sentence:  1 July.-- fficrolling maybe though cores Rwere to her, covered whirl asleep Take sensiold drew brandy revolYes obsericker eet if
+
+sentence score:  1.802435160367063e-163
+
+perplexity:  177750.5605608898
+
+sentence:  Godalming has anced worse vour taken him home ans and peculiarhead loudly spirit tty doom fty earnest âoot We make liwarning into gold work driving Friend
+
+sentence score:  5.09451889288345e-188
+
+perplexity:  1100794.7487338788
+

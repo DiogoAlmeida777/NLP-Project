@@ -128,7 +128,39 @@ def test_n_gram(model: n_gram):
     print("perplexity = ",model.perplexity(test_input5),sep=" ",end="\n\n")
 
 
+def test_on_generated_sentences(model:n_gram):
+    # generated with temperature = 0.4
+    generated_sentences1 = [
+        "I know that you were with her at Whitby.",
+        "I could see even Arthur’s face grow hard as he looked.",
+        "All at once that shifty look came into his eyes which we always see when a madman has seized an idea, and with it the shifty movement"
+    ]
+    # generated with temperature = 0.7
+    generated_sentences2 = [
+        "Joseph and Ste." ,
+        "I am afraid to stop, or I should tear up the letter, and I don’t want to stop, for I do so want to tell you all",
+        "Later.-- I went after my round to Van Helsing and told him my suspicion."
+    ]
+    # generated with temperature = 1.0
+    generated_sentences3 = [
+        "He covered his face with his hands, palm said would have nothing the key, opened the door, drew back the ponderous bolts, un",
+        "The boy handed in a despatch.",
+        "To- morrow will, I hope, mend all this; she will be herself at home in Exeter."
+    ]
+    # generated with temperature = 2.0
+    generated_sentences4 = [
+        "And cried suddenly grew Co; Hotel, tomb are black HApbaldrew drifting habit of they ea far relaells the only ouse chman small Arthur",
+        "1 July.-- fficrolling maybe though cores Rwere to her, covered whirl asleep Take sensiold drew brandy revolYes obsericker eet if" ,
+        "Godalming has anced worse vour taken him home ans and peculiarhead loudly spirit tty doom fty earnest âoot We make liwarning into gold work driving Friend"
+    ]
 
+    tests = [generated_sentences1,generated_sentences2,generated_sentences3,generated_sentences4]
+
+    for sentences in tests:
+        for s in sentences:
+            print("sentence: ",s,end="\n\n")
+            print("sentence score: ",model.sentence_score(s),end="\n\n")
+            print("perplexity: ",model.perplexity(s),end="\n\n")
 
 def test_bm25search(model:bm25_search):
     character_queries = [
