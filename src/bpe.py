@@ -16,7 +16,7 @@ class MergeRule:
 
 class bpe_tokenizer:
 
-    def __init__(self, text:str, k: int):
+    def __init__(self, text:str, k: int) -> None:
         self.vocabulary: dict[str, VocabEntry] = {}
         self.merge_rules: dict[tuple[str,str], MergeRule] = {}
         self.k = k
@@ -53,7 +53,7 @@ class bpe_tokenizer:
             )
             self._update_vocab(merge_pair=most_frequent_pair)
 
-    def _update_vocab(self,merge_pair:tuple[str,str]):
+    def _update_vocab(self,merge_pair:tuple[str,str]) -> None:
         merged_token = ''.join(merge_pair)
 
         for value in self.vocabulary.values():
@@ -66,7 +66,7 @@ class bpe_tokenizer:
                 else:
                     i += 1
 
-    def tokenize(self,input: str):
+    def tokenize(self,input: str) -> list[str]:
         normalized_input = normalize_text(input)
         word_tokens = tokenize_sentences([normalized_input])[0]
         bpe_rep = []
@@ -107,6 +107,4 @@ class bpe_tokenizer:
                 i += 1
         return bpe_rep
 
-    def print_merge_rules(self):
-        print(self.merge_rules[1].rank,self.merge_rules[0],"->",self.merge_rules[1].merge)
             

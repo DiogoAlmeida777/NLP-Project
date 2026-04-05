@@ -4,7 +4,7 @@ from ngram import n_gram
 from information_retrieval import bm25_search, bm25_search_words, bm25_search_bpe
 
 
-def test_bpe(model: bpe_tokenizer):
+def test_bpe(model: bpe_tokenizer) -> None:
 
     print("Top 10 merge rules:",sep="\n\n",end="\n\n")
     top_10 = sorted(model.merge_rules.items(), key=lambda x: x[1].rank)[:10]
@@ -32,7 +32,7 @@ def test_bpe(model: bpe_tokenizer):
         print("bpe representation:",model.tokenize(s),sep="\n\n",end="\n\n")
     
 
-def test_n_gram(model: n_gram):
+def test_n_gram(model: n_gram) -> None:
     print("Vocabulary Size:",len(model.vocab),sep=" ",end="\n\n")
     print("Number of bigrams:",len(model.ngram_counts[1]),sep=" ",end="\n\n")
     print("Number of trigrams:",len(model.ngram_counts[2]),sep=" ",end="\n\n")
@@ -128,7 +128,7 @@ def test_n_gram(model: n_gram):
     print("perplexity = ",model.perplexity(test_input5),sep=" ",end="\n\n")
 
 
-def test_on_generated_sentences(model:n_gram):
+def test_on_generated_sentences(model:n_gram) -> None:
     # generated with temperature = 0.4
     generated_sentences1 = [
         "I know that you were with her at Whitby.",
@@ -162,7 +162,7 @@ def test_on_generated_sentences(model:n_gram):
             print("sentence score: ",model.sentence_score(s),end="\n\n")
             print("perplexity: ",model.perplexity(s),end="\n\n")
 
-def test_bm25search(model:bm25_search):
+def test_bm25search(model:bm25_search) -> None:
     character_queries = [
         "Dracula",
         "Jonathan Harker",

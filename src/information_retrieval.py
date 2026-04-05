@@ -12,7 +12,7 @@ class DocumentInfo:
 
 class bm25_search(ABC):
 
-    def __init__(self,corpus: str, k1: float = 1.2, b: float = 0.75):
+    def __init__(self,corpus: str, k1: float = 1.2, b: float = 0.75) -> None:
         self.inverted_index: dict[str,dict[int,int]] = {}
         self.documents: dict[int,DocumentInfo] = {}
         self.n_docs: int = 0

@@ -8,11 +8,8 @@ from bpe import bpe_tokenizer
 
 
 class n_gram:
-    def __init__(self,N: int,lambda_backoff:float = 0.4,tokenizer:bpe_tokenizer | None = None):
+    def __init__(self,N: int,lambda_backoff:float = 0.4,tokenizer:bpe_tokenizer | None = None) -> None:
         self.N: int = N
-        #self.ngram_counts: dict[int,dict[tuple[str, ...],int]] = dict()
-        #self.vocab: set[str] = set()   
-        #self.total_tokens: int = 0 
         self.lambda_backoff: float = lambda_backoff
         self.eps: float = 10**-12
         self.tokenizer = tokenizer
@@ -50,7 +47,7 @@ class n_gram:
                     self.total_tokens += 1
             
 
-    def _stupid_backoff(self,ngram:tuple[str,...]):
+    def _stupid_backoff(self,ngram:tuple[str,...]) -> float:
         i = self.N - 1
         power = 0
         probability = 0
